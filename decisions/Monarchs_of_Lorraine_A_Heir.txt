@@ -1,0 +1,508 @@
+country_decisions = {
+
+	monarch_LOR_No.00a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = LOR
+		    NOT = { is_year = 1470 }
+		    NOT = { has_global_flag = monarch_LOR_No.00a }
+		}
+		allow = {
+		    is_year = 1453
+		    is_lesser_in_union = yes
+		}
+		effect = {
+			set_global_flag = monarch_LOR_No.00a
+			#break_union = PRO
+			define_heir = { 
+		        name = "Jean"
+		        monarch_name = "Jean II"
+		        dynasty = "de Valois"
+		        birth_date = 1424.8.2
+		        death_date = 1570.12.16
+		        claim = 95
+		        adm = 1
+		        dip = 4
+		        mil = 2
+		    }
+            hidden_effect = {
+                define_ruler = { 
+		            name = "(Regent) René I"
+		            dynasty = "de Valois"
+		            claim = 95
+		            adm = 3
+		            dip = 5
+		            mil = 2
+		            regency = yes
+		        }
+            }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_LOR_No.01a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = LOR
+		    has_ruler = "Jean II"
+		    NOT = { is_year = 1473 }
+		    NOT = { has_global_flag = monarch_LOR_No.01a }
+		}
+		allow = {
+		    is_year = 1448
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_LOR_No.01a
+			define_heir = { 
+		        name = "Nicolas"
+		        monarch_name = "Nicolas I"
+		        dynasty = "de Valois"
+		        birth_date = 1448.1.1
+		        death_date = 1473.8.25
+		        claim = 95
+		        adm = 1
+		        dip = 4
+		        mil = 2
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_LOR_No.02a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = LOR
+		    has_ruler = "Nicolas I"
+		    NOT = { is_year = 1508 }
+		    NOT = { has_global_flag = monarch_LOR_No.02a }
+		}
+		allow = {
+		    is_year = 1451
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_LOR_No.02a
+			define_heir = { 
+		        name = "René"
+		        monarch_name = "René II"
+		        dynasty = "de Vaudémont"
+		        birth_date = 1451.5.2
+		        death_date = 1508.12.10
+		        claim = 95
+		        adm = 1
+		        dip = 4
+		        mil = 2
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_LOR_No.03a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = LOR
+		    has_ruler = "René II"
+		    NOT = { is_year = 1544 }
+		    NOT = { has_global_flag = monarch_LOR_No.03a }
+		}
+		allow = {
+		    is_year = 1489
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_LOR_No.03a
+			define_heir = { 
+		        name = "Antoine"
+		        monarch_name = "Antoine I"
+		        dynasty = "de Vaudémont"
+		        birth_date = 1489.6.4
+		        death_date = 1544.6.14
+		        claim = 95
+		        adm = 4
+		        dip = 1
+		        mil = 4
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_LOR_No.04a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = LOR
+		    has_ruler = "Antoine I"
+		    NOT = { is_year = 1546 }
+		    NOT = { has_global_flag = monarch_LOR_No.04a }
+		}
+		allow = {
+		    is_year = 1517
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_LOR_No.04a
+			define_heir = { 
+		        name = "François"
+		        monarch_name = "François I"
+		        dynasty = "de Vaudémont"
+		        birth_date = 1517.8.23
+		        death_date = 1545.6.12
+		        claim = 95
+		        adm = 4
+		        dip = 4
+		        mil = 3
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_LOR_No.05a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = LOR
+		    has_ruler = "François I"
+		    NOT = { is_year = 1608 }
+		    NOT = { has_global_flag = monarch_LOR_No.05a }
+		}
+		allow = {
+		    is_year = 1543
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_LOR_No.05a
+			define_heir = { 
+		        name = "Charles"
+		        monarch_name = "Charles III"
+		        dynasty = "de Vaudémont"
+		        birth_date = 1543.2.18
+		        death_date = 1608.5.14
+		        claim = 95
+		        adm = 6
+		        dip = 5
+		        mil = 4
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_LOR_No.06a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = LOR
+		    has_ruler = "Charles III"
+		    NOT = { is_year = 1624 }
+		    NOT = { has_global_flag = monarch_LOR_No.06a }
+		}
+		allow = {
+		    is_year = 1563
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_LOR_No.06a
+			define_heir = { 
+		        name = "Henri"
+		        monarch_name = "Henri I"
+		        dynasty = "de Vaudémont"
+		        birth_date = 1563.11.8
+		        death_date = 1624.7.31
+		        claim = 95
+		        adm = 4
+		        dip = 3
+		        mil = 3
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_LOR_No.07a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = LOR
+		    has_ruler = "Henri I"
+		    NOT = { is_year = 1632 }
+		    NOT = { has_global_flag = monarch_LOR_No.07a }
+		}
+		allow = {
+		    is_year = 1572
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_LOR_No.07a
+			define_heir = { 
+		        name = "François"
+		        monarch_name = "François II"
+		        dynasty = "de Vaudémont"
+		        birth_date = 1572.2.27
+		        death_date = 1632.10.14
+		        claim = 95
+		        adm = 1 # adm = 0
+		        dip = 1 # dip = 0
+		        mil = 1 # mil = 0
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_LOR_No.08a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = LOR
+		    has_ruler = "François II"
+		    NOT = { is_year = 1674 }
+		    NOT = { has_global_flag = monarch_LOR_No.08a }
+		}
+		allow = {
+		    is_year = 1604
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_LOR_No.08a
+			define_heir = { 
+		        name = "Charles"
+		        monarch_name = "Charles IV"
+		        dynasty = "de Vaudémont"
+		        birth_date = 1604.4.5
+		        death_date = 1674.9.18
+		        claim = 95
+		        adm = 2
+		        dip = 1 # dip = 0
+		        mil = 1 # mil = 0
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_LOR_No.09a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = LOR
+		    has_ruler = "Charles IV"
+		    NOT = { is_year = 1670 }
+		    NOT = { has_global_flag = monarch_LOR_No.09a }
+		}
+		allow = {
+		    is_year = 1612
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_LOR_No.09a
+			define_heir = { 
+		        name = "Nicolas"
+		        monarch_name = "Nicolas II"
+		        dynasty = "de Vaudémont"
+		        birth_date = 1612.12.12
+		        death_date = 1670.1.25
+		        claim = 95
+		        adm = 1
+		        dip = 1
+		        mil = 1
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_LOR_No.10a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = LOR
+		    has_ruler = "Nicolas II"
+		    NOT = { is_year = 1674 }
+		    NOT = { has_global_flag = monarch_LOR_No.10a }
+		}
+		allow = {
+		    is_year = 1604
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_LOR_No.10a
+			define_heir = { 
+		        name = "Charles"
+		        monarch_name = "Charles IV"
+		        dynasty = "de Vaudémont"
+		        birth_date = 1604.4.5
+		        death_date = 1674.9.18
+		        claim = 95
+		        adm = 2
+		        dip = 1 # dip = 0
+		        mil = 1 # mil = 0
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_LOR_No.11a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = LOR
+		    has_ruler = "Charles IV"
+		    NOT = { is_year = 1690 }
+		    NOT = { has_global_flag = monarch_LOR_No.11a }
+		}
+		allow = {
+		    is_year = 1643
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_LOR_No.11a
+			define_heir = { 
+		        name = "Charles Léopold"
+		        monarch_name = "Charles V Léopold"
+		        dynasty = "de Vaudémont"
+		        birth_date = 1643.4.3
+		        death_date = 1690.4.18
+		        claim = 95
+		        adm = 1
+		        dip = 4
+		        mil = 1 # mil = 0
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_LOR_No.12a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = LOR
+		    has_ruler = "Charles V Léopold"
+		    NOT = { is_year = 1729 }
+		    NOT = { has_global_flag = monarch_LOR_No.12a }
+		}
+		allow = {
+		    is_year = 1679
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_LOR_No.12a
+			define_heir = { 
+		        name = "Léopold Joseph"
+		        monarch_name = "Léopold I Joseph"
+		        dynasty = "de Vaudémont"
+		        birth_date = 1679.9.11
+		        death_date = 1729.3.27
+		        claim = 95
+		        adm = 2
+		        dip = 1
+		        mil = 1 # mil = 0
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_LOR_No.13a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = LOR
+		    has_ruler = "Léopold I Joseph"
+		    NOT = { is_year = 1737 }
+		    NOT = { has_global_flag = monarch_LOR_No.13a }
+		}
+		allow = {
+		    is_year = 1708
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_LOR_No.13a
+			define_heir = { 
+		        name = "François Éttiene"
+		        monarch_name = "François III Éttiene"
+		        dynasty = "de Vaudémont"
+		        birth_date = 1708.12.8
+		        death_date = 1737.7.9
+		        claim = 95
+		        adm = 1 # adm = 0
+		        dip = 1
+		        mil = 3
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_LOR_No.14a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = LOR
+		    has_ruler = "François III Éttiene"
+		    NOT = { is_year = 1766 }
+		    NOT = { has_global_flag = monarch_LOR_No.14a }
+		}
+		allow = {
+		    is_year = 1677
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_LOR_No.14a
+			define_heir = { 
+		        name = "Stanislas"
+		        monarch_name = "Stanislas I"
+		        dynasty = "Leszczynski"
+		        birth_date = 1677.10.20
+		        death_date = 1766.2.23
+		        claim = 95
+		        adm = 3
+		        dip = 4
+		        mil = 1
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+}

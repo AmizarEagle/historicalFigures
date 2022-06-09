@@ -1,0 +1,601 @@
+country_decisions = {
+
+	monarch_SAV_No.00a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    OR = { tag = SAV AND = { tag = SPI } }
+		    has_ruler = "Ludovico I"
+		    NOT = { is_year = 1472 }
+		    NOT = { has_global_flag = monarch_SAV_No.00a }
+		}
+		allow = {
+		    is_year = 1435
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SAV_No.00a
+			define_heir = { 
+		        name = "Amedeo"
+		        monarch_name = "Amedeo IX"
+		        dynasty = "di Savoia"
+		        birth_date = 1435.2.1
+		        death_date = 1472.3.30
+		        claim = 95
+		        adm = 3
+		        dip = 2
+		        mil = 1 # mil = 0
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_SAV_No.01a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    OR = { tag = SAV AND = { tag = SPI } }
+		    has_ruler = "Amedeo IX"
+		    NOT = { is_year = 1482 }
+		    NOT = { has_global_flag = monarch_SAV_No.01a }
+		}
+		allow = {
+		    is_year = 1465
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SAV_No.01a
+			define_heir = { 
+		        name = "Filiberto"
+		        monarch_name = "Filiberto I"
+		        dynasty = "di Savoia"
+		        birth_date = 1465.8.17
+		        death_date = 1482.9.22
+		        claim = 95
+		        adm = 1
+		        dip = 1
+		        mil = 1
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_SAV_No.02a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    OR = { tag = SAV AND = { tag = SPI } }
+		    has_ruler = "Filiberto I"
+		    NOT = { is_year = 1490 }
+		    NOT = { has_global_flag = monarch_SAV_No.02a }
+		}
+		allow = {
+		    is_year = 1468
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SAV_No.02a
+			define_heir = { 
+		        name = "Carlo"
+		        monarch_name = "Carlo I"
+		        dynasty = "di Savoia"
+		        birth_date = 1468.3.29
+		        death_date = 1490.3.13
+		        claim = 95
+		        adm = 2
+		        dip = 2
+		        mil = 3
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_SAV_No.03a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    OR = { tag = SAV AND = { tag = SPI } }
+		    has_ruler = "Carlo I"
+		    NOT = { is_year = 1496 }
+		    NOT = { has_global_flag = monarch_SAV_No.03a }
+		}
+		allow = {
+		    is_year = 1489
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SAV_No.03a
+			define_heir = { 
+		        name = "Carlo"
+		        monarch_name = "Carlo II"
+		        dynasty = "di Savoia"
+		        birth_date = 1489.6.23
+		        death_date = 1496.4.16
+		        claim = 95
+		        adm = 2
+		        dip = 2
+		        mil = 1
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_SAV_No.04a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    OR = { tag = SAV AND = { tag = SPI } }
+		    OR = { has_ruler = "Carlo II" AND = { has_global_flag = monarch_SAV_No.03b } }
+		    NOT = { is_year = 1497 }
+		    NOT = { has_global_flag = monarch_SAV_No.04a }
+		}
+		allow = {
+		    is_year = 1496
+		    is_lesser_in_union = no
+		}
+		effect = {
+			set_global_flag = monarch_SAV_No.04a
+			define_heir = { 
+		        name = "Filippo"
+		        monarch_name = "Filippo II"
+		        dynasty = "di Savoia"
+		        birth_date = 1438.2.5
+		        death_date = 1497.11.7
+		        claim = 95
+		        adm = 1
+		        dip = 1
+		        mil = 1
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_SAV_No.05a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    OR = { tag = SAV AND = { tag = SPI } }
+		    has_ruler = "Filippo II"
+		    NOT = { is_year = 1504 }
+		    NOT = { has_global_flag = monarch_SAV_No.05a }
+		}
+		allow = {
+		    is_year = 1480
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SAV_No.05a
+			define_heir = { 
+		        name = "Filiberto"
+		        monarch_name = "Filiberto II"
+		        dynasty = "di Savoia"
+		        birth_date = 1480.4.10
+		        death_date = 1504.9.10
+		        claim = 95
+		        adm = 3
+		        dip = 2
+		        mil = 1
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_SAV_No.06a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    OR = { tag = SAV AND = { tag = SPI } }
+		    has_ruler = "Filiberto II"
+		    NOT = { is_year = 1553 }
+		    NOT = { has_global_flag = monarch_SAV_No.06a }
+		}
+		allow = {
+		    is_year = 1486
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SAV_No.06a
+			define_heir = { 
+		        name = "Carlo"
+		        monarch_name = "Carlo III"
+		        dynasty = "di Savoia"
+		        birth_date = 1486.10.10
+		        death_date = 1553.8.1
+		        claim = 95
+		        adm = 2
+		        dip = 4
+		        mil = 2
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_SAV_No.07a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    OR = { tag = SAV AND = { tag = SPI } }
+		    has_ruler = "Carlo III"
+		    NOT = { is_year = 1580 }
+		    NOT = { has_global_flag = monarch_SAV_No.07a }
+		}
+		allow = {
+		    is_year = 1528
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SAV_No.07a
+			define_heir = {
+		        name = "Emanuele Filiberto"
+		        monarch_name = "Emanuele Filiberto I"
+		        dynasty = "di Savoia"
+		        birth_date = 1528.7.8
+		        death_date = 1580.8.30
+		        claim = 95
+		        adm = 5
+		        dip = 5
+		        mil = 4
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_SAV_No.08a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    OR = { tag = SAV AND = { tag = SPI } }
+		    has_ruler = "Emanuele Filiberto I"
+		    NOT = { is_year = 1630 }
+		    NOT = { has_global_flag = monarch_SAV_No.08a }
+		}
+		allow = {
+		    is_year = 1562
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SAV_No.08a
+			define_heir = {
+		        name = "Carlo Emanuele"
+		        monarch_name = "Carlo Emanuele I"
+		        dynasty = "di Savoia"
+		        birth_date = 1562.1.12
+		        death_date = 1630.7.26
+		        claim = 95
+		        adm = 2
+		        dip = 3
+		        mil = 3
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_SAV_No.09a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    OR = { tag = SAV AND = { tag = SPI } }
+		    has_ruler = "Carlo Emanuele I"
+		    NOT = { is_year = 1637 }
+		    NOT = { has_global_flag = monarch_SAV_No.09a }
+		}
+		allow = {
+		    is_year = 1587
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SAV_No.09a
+			define_heir = { 
+		        name = "Vittorio Amedeo"
+		        monarch_name = "Vittorio Amedeo I"
+		        dynasty = "di Savoia"
+		        birth_date = 1587.5.8
+		        death_date = 1637.10.7
+		        claim = 95
+		        adm = 4
+		        dip = 4
+		        mil = 2
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_SAV_No.10a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    OR = { tag = SAV AND = { tag = SPI } }
+		    has_ruler = "Vittorio Amedeo I"
+		    NOT = { is_year = 1638 }
+		    NOT = { has_global_flag = monarch_SAV_No.10a }
+		}
+		allow = {
+		    is_year = 1632
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SAV_No.10a
+			define_heir = { 
+		        name = "Francesco Giacinto"
+		        monarch_name = "Francesco Giacinto"
+		        dynasty = "di Savoia"
+		        birth_date = 1632.9.14
+		        death_date = 1638.10.4
+		        claim = 95
+		        adm = 2
+		        dip = 2
+		        mil = 2
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_SAV_No.11a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    OR = { tag = SAV AND = { tag = SPI } }
+		    OR = {
+		        has_ruler = "Francesco Giacinto"
+		        has_ruler = "Francesco Giacinto I"
+		        has_global_flag = monarch_SAV_No.10b
+		    }
+		    NOT = { is_year = 1675 }
+		    NOT = { has_global_flag = monarch_SAV_No.11a }
+		}
+		allow = {
+		    is_year = 1638
+		    is_lesser_in_union = no
+		}
+		effect = {
+			set_global_flag = monarch_SAV_No.11a
+			define_heir = { 
+		        name = "Carlo Emanuele"
+		        monarch_name = "Carlo Emanuele II"
+		        dynasty = "di Savoia"
+		        birth_date = 1634.6.20
+		        death_date = 1675.6.12
+		        claim = 95
+		        adm = 3
+		        dip = 2
+		        mil = 3
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_SAV_No.12a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    OR = { tag = SAV AND = { tag = SPI } }
+		    has_ruler = "Carlo Emanuele II"
+		    NOT = { is_year = 1732 }
+		    NOT = { has_global_flag = monarch_SAV_No.12a }
+		}
+		allow = {
+		    is_year = 1666
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SAV_No.12a
+			define_heir = { 
+		        name = "Vittorio Amedeo"
+		        monarch_name = "Vittorio Amedeo II"
+		        dynasty = "di Savoia"
+		        birth_date = 1666.5.14
+		        death_date = 1732.10.31
+		        claim = 95
+		        adm = 4
+		        dip = 6
+		        mil = 5
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_SAV_No.13a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    OR = { tag = SAV AND = { tag = SPI } }
+		    has_ruler = "Vittorio Amedeo II"
+		    NOT = { is_year = 1773 }
+		    NOT = { has_global_flag = monarch_SAV_No.13a }
+		}
+		allow = {
+		    is_year = 1701
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SAV_No.13a
+			define_heir = { 
+		        name = "Carlo Emanuele"
+		        monarch_name = "Carlo Emanuele III"
+		        dynasty = "di Savoia"
+		        birth_date = 1701.4.27
+		        death_date = 1773.2.20
+		        claim = 95
+		        adm = 4
+		        dip = 5
+		        mil = 6
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_SAV_No.14a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    OR = { tag = SAV AND = { tag = SPI } }
+		    has_ruler = "Carlo Emanuele III"
+		    has_global_flag = monarch_SAV_No.13a
+		    NOT = { is_year = 1796 } 
+		    NOT = { has_global_flag = monarch_SAV_No.14a }
+		}
+		allow = {
+		    is_year = 1726
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SAV_No.14a
+			define_heir = {
+		        name = "Vittorio Amedeo"
+		        monarch_name = "Vittorio Amedeo III"
+		        dynasty = "di Savoia"
+		        birth_date = 1726.6.26
+		        death_date = 1796.10.16
+		        claim = 95
+		        adm = 1
+		        dip = 1 # dip = 0
+		        mil = 2
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_SAV_No.15a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    OR = { tag = SAV AND = { tag = SPI } }
+		    has_ruler = "Vittorio Amedeo III"
+		    NOT = { is_year = 1819 }
+		    NOT = { has_global_flag = monarch_SAV_No.15a }
+		}
+		allow = {
+		    is_year = 1751
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SAV_No.15a
+			define_heir = {
+		        name = "Carlo Emanuele"
+		        monarch_name = "Carlo Emanuele IV"
+		        dynasty = "di Savoia"
+		        birth_date = 1751.5.24
+		        death_date = 1819.10.6
+		        claim = 95
+		        adm = 1
+		        dip = 1 # dip = 0
+		        mil = 1
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_SAV_No.16a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    OR = { tag = SAV AND = { tag = SPI } }
+		    has_ruler = "Carlo Emanuele IV"
+		    has_global_flag = monarch_SAV_No.15a
+		    NOT = { is_year = 1824 }
+		    NOT = { has_global_flag = monarch_SAV_No.16a }
+		}
+		allow = {
+		    is_year = 1759
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SAV_No.16a
+			define_heir = {
+		        name = "Vittorio Emanuele"
+		        monarch_name = "Vittorio Emanuele I"
+		        dynasty = "di Savoia"
+		        birth_date = 1759.7.24
+		        death_date = 1824.1.10
+		        claim = 95
+		        adm = 1
+		        dip = 1
+		        mil = 1
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_SAV_No.17a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    OR = { tag = SAV AND = { tag = SPI } }
+		    has_ruler = "Vittorio Emanuele I"
+		    NOT = { is_year = 1831 }
+		    NOT = { has_global_flag = monarch_SAV_No.17a }
+		}
+		allow = {
+		    is_year = 1765
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SAV_No.17a
+			define_heir = {
+		        name = "Carlo Felice"
+		        monarch_name = "Carlo Felice"
+		        dynasty = "di Savoia"
+		        birth_date = 1765.4.4
+		        death_date = 1831.4.27
+		        claim = 95
+		        adm = 2
+		        dip = 2
+		        mil = 2
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+}

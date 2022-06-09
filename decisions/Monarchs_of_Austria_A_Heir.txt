@@ -1,0 +1,608 @@
+country_decisions = {
+
+	monarch_HAB_No.00a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = HAB
+		    has_ruler = "Friedrich III"
+		    NOT = { is_year = 1471 }
+		    NOT = { has_global_flag = monarch_HAB_No.00a }
+		}
+		allow = {
+		    is_year = 1440
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_HAB_No.00a
+			define_heir = { 
+		        name = "Ladislaus Postumus"
+		        monarch_name = "Ladislaus I Postumus"
+		        dynasty = "von Habsburg"
+		        birth_date = 1440.2.22
+		        death_date = 1471.5.4
+		        claim = 95
+		        adm = 3
+		        dip = 3
+		        mil = 2
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_HAB_No.01a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = HAB
+		    OR = { 
+		        has_ruler = "Friedrich III"
+		        has_ruler = "Ladislaus I Postumus"
+		        has_ruler = "Ladislaus Postumus"
+		        has_ruler = "Ladislav I"
+		    }
+		    NOT = { is_year = 1519 }
+		    NOT = { has_global_flag = monarch_HAB_No.01a }
+		}
+		allow = {
+		    is_year = 1459
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_HAB_No.01a
+			define_heir = { 
+		        name = "Maximilian"
+		        monarch_name = "Maximilian I"
+		        dynasty = "von Habsburg"
+		        birth_date = 1459.3.22
+		        death_date = 1519.1.12
+		        claim = 95
+		        adm = 2
+		        dip = 4
+		        mil = 2
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_HAB_No.02a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = HAB
+		    has_ruler = "Maximilian I"
+		    NOT = { is_year = 1506 }
+		    NOT = { has_global_flag = monarch_HAB_No.02a }
+		}
+		allow = {
+		    is_year = 1478
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_HAB_No.02a
+			define_heir = { 
+		        name = "Philip" # The Handsome
+		        monarch_name = "Philip I"
+		        dynasty = "von Habsburg"
+		        birth_date = 1478.7.22
+		        death_date = 1506.9.25
+		        claim = 95
+		        adm = 2
+		        dip = 2
+		        mil = 2
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_HAB_No.03a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = HAB
+		    OR = { 
+		        has_ruler = "Maximilian I"
+		        has_ruler = "Philip I"
+		        has_ruler = "Philipp I"
+		    }
+		    NOT = { is_year = 1558 }
+		    NOT = { has_global_flag = monarch_HAB_No.03a }
+		}
+		allow = {
+		    is_year = 1500
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_HAB_No.03a
+			define_heir = { 
+		        name = "Karl"
+		        monarch_name = "Karl I" # Carlos I of Spain
+		        dynasty = "von Habsburg"
+		        birth_date = 1500.2.24
+		        death_date = 1558.9.21
+		        claim = 95
+		        adm = 4
+		        dip = 5
+		        mil = 5
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_HAB_No.04a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = HAB
+		    has_ruler = "Karl I"
+		    NOT = { is_year = 1564 }
+		    NOT = { has_global_flag = monarch_HAB_No.04a }
+		}
+		allow = {
+		    is_year = 1503
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_HAB_No.04a
+			define_heir = { 
+	            name = "Ferdinand"
+	            monarch_name = "Ferdinand I"
+		        dynasty = "von Habsburg"
+		        birth_date = 1503.3.10
+		        death_date = 1564.7.25
+		        claim = 95
+		        adm = 4
+		        dip = 3
+		        mil = 4
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_HAB_No.05a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = HAB
+		    has_ruler = "Ferdinand I"
+		    NOT = { is_year = 1576 }
+		    NOT = { has_global_flag = monarch_HAB_No.05a }
+		}
+		allow = {
+		    is_year = 1527
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_HAB_No.05a
+			define_heir = { 
+	            name = "Maximilian"
+	            monarch_name = "Maximilian II"
+	            dynasty = "von Habsburg"
+	            birth_date = 1527.7.31
+		        death_date = 1576.10.12
+	            claim = 95
+	            adm = 2
+	            dip = 4
+	            mil = 2
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_HAB_No.06a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = HAB
+		    has_ruler = "Maximilian II"
+		    NOT = { is_year = 1612 }
+		    NOT = { has_global_flag = monarch_HAB_No.06a }
+		}
+		allow = {
+		    is_year = 1552
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_HAB_No.06a
+			define_heir = { 
+		        name = "Rudolf"
+		        monarch_name = "Rudolf II"
+		        dynasty = "von Habsburg"
+		        birth_date = 1552.7.18
+		        death_date = 1612.1.20
+		        claim = 95
+		        adm = 4
+		        dip = 3
+		        mil = 2
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_HAB_No.07a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = HAB
+		    has_ruler = "Rudolf II"
+		    NOT = { is_year = 1619 }
+		    NOT = { has_global_flag = monarch_HAB_No.07a }
+		}
+		allow = {
+		    is_year = 1557
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_HAB_No.07a
+			define_heir = {
+		        name = "Matthias"
+		        monarch_name = "Matthias I"
+		        dynasty = "von Habsburg"
+		        birth_date = 1557.2.24
+		        death_date = 1619.3.20
+		        adm = 2
+		        dip = 2
+		        mil = 1 # mil = 0
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_HAB_No.08a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = HAB
+		    has_ruler = "Matthias I"
+		    NOT = { is_year = 1637 }
+		    NOT = { has_global_flag = monarch_HAB_No.08a }
+		}
+		allow = {
+		    is_year = 1578
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_HAB_No.08a
+			define_heir = { 
+		        name = "Ferdinand"
+		        monarch_name = "Ferdinand II"
+		        dynasty = "von Habsburg"
+		        birth_date = 1578.7.9
+		        death_date = 1637.2.15
+		        claim = 95
+		        adm = 2
+		        dip = 1
+		        mil = 1
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_HAB_No.09a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = HAB
+		    has_ruler = "Ferdinand II"
+		    NOT = { is_year = 1657 }
+		    NOT = { has_global_flag = monarch_HAB_No.09a }
+		}
+		allow = {
+		    is_year = 1608
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_HAB_No.09a
+			define_heir = { 
+		        name = "Ferdinand"
+		        monarch_name = "Ferdinand III"
+		        dynasty = "von Habsburg"
+		        birth_date = 1608.7.13
+		        death_date = 1657.4.2
+		        claim = 95
+		        adm = 4
+		        dip = 1
+		        mil = 5
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_HAB_No.10a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = HAB
+		    has_ruler = "Ferdinand III"
+		    NOT = { is_year = 1705 }
+		    NOT = { has_global_flag = monarch_HAB_No.10a }
+		}
+		allow = {
+		    is_year = 1640
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_HAB_No.10a
+			define_heir = { 
+		        name = "Leopold"
+		        monarch_name = "Leopold I"
+		        dynasty = "von Habsburg"
+		        birth_date = 1640.6.9
+		        death_date = 1705.5.5
+		        claim = 95
+		        adm = 4
+		        dip = 4
+		        mil = 5
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_HAB_No.11a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = HAB
+		    has_ruler = "Leopold I"
+		    NOT = { is_year = 1711 }
+		    NOT = { has_global_flag = monarch_HAB_No.11a }
+		}
+		allow = {
+		    is_year = 1678
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_HAB_No.11a
+			define_heir = { 
+		        name = "Josef"
+		        monarch_name = "Josef I"
+		        dynasty = "von Habsburg"
+		        birth_date = 1678.7.26
+		        death_date = 1711.4.17
+		        claim = 95
+		        adm = 3
+		        dip = 1
+		        mil = 3
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_HAB_No.12a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = HAB
+		    has_ruler = "Josef I"
+		    NOT = { is_year = 1740 }
+		    NOT = { has_global_flag = monarch_HAB_No.12a }
+		}
+		allow = {
+		    is_year = 1685
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_HAB_No.12a
+			define_heir = { 
+		        name = "Karl"
+		        monarch_name = "Karl II"
+		        dynasty = "von Habsburg"
+		        birth_date = 1685.10.1
+		        death_date = 1740.10.20
+		        claim = 95
+		        adm = 4
+		        dip = 3
+		        mil = 3
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_HAB_No.13a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = HAB
+		    has_ruler = "Karl II"
+		    NOT = { is_year = 1780 }
+		    NOT = { has_global_flag = monarch_HAB_No.13a }
+		    NOT = { has_global_flag = wih_maria_theresa_hab_flag } # Women in History
+		}
+		allow = {
+		    is_year = 1717
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_HAB_No.13a
+			set_global_flag = wih_maria_theresa_hab_flag # Women in History
+			define_heir = { 
+		        name = "Maria Theresia"
+		        monarch_name = "Maria Theresia I"
+		        dynasty = "von Habsburg"
+		        birth_date = 1717.5.13
+		        death_date = 1780.11.29
+		        claim = 95
+		        adm = 5
+		        dip = 5
+		        mil = 4
+		        female = yes
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_HAB_No.14a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = HAB
+		    OR = { has_ruler = "Maria Theresia I" AND = { has_ruler = "Maria Theresia" } }
+		    NOT = { is_year = 1790 }
+		    NOT = { has_global_flag = monarch_HAB_No.14a }
+		}
+		allow = {
+		    is_year = 1741
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_HAB_No.14a
+			define_heir = {
+		        name = "Josef"
+		        monarch_name = "Josef II"
+		        dynasty = "von Habsburg"
+		        birth_date = 1741.3.13
+		        death_date = 1790.2.20
+		        claim = 95
+		        adm = 5
+		        dip = 6
+		        mil = 4
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_HAB_No.15a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = HAB
+		    has_ruler = "Josef II"
+		    NOT = { is_year = 1792 }
+		    NOT = { has_global_flag = monarch_HAB_No.15a }
+		}
+		allow = {
+		    is_year = 1747
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_HAB_No.15a
+			define_heir = {
+		        name = "Leopold"
+		        monarch_name = "Leopold II"
+		        dynasty = "von Habsburg"
+		        birth_date = 1747.5.5
+		        death_date = 1792.3.1
+		        claim = 95
+		        adm = 3
+		        dip = 2
+		        mil = 2
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_HAB_No.16a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = HAB
+		    has_ruler = "Leopold II"
+		    NOT = { is_year = 1835 }
+		    NOT = { has_global_flag = monarch_HAB_No.16a }
+		}
+		allow = {
+		    is_year = 1768
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_HAB_No.16a
+			define_heir = { 
+		        name = "Franz"
+		        monarch_name = "Franz II"
+		        dynasty = "von Habsburg"
+		        birth_date = 1768.2.12
+		        death_date = 1835.3.2
+		        claim = 95
+		        adm = 2
+		        dip = 4
+		        mil = 2
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_HAB_No.17a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = HAB
+		    has_ruler = "Franz II"
+		    NOT = { is_year = 1875 }
+		    NOT = { has_global_flag = monarch_HAB_No.17a }
+		}
+		allow = {
+		    is_year = 1793
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_HAB_No.17a
+			define_heir = { 
+		        name = "Ferdinand"
+		        monarch_name = "Ferdinand I"	
+		        dynasty = "von Habsburg"
+		        birth_date = 1793.4.19
+		        death_date = 1875.6.29
+		        claim = 95
+		        adm = 3
+		        dip = 4
+		        mil = 2
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+}

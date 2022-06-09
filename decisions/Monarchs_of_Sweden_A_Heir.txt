@@ -1,0 +1,671 @@
+country_decisions = {
+
+	monarch_SWE_No.01a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = SWE
+		    NOT = { is_year = 1470 }
+		    NOT = { has_global_flag = monarch_SWE_No.01a }
+		}
+		allow = {
+		    is_lesser_in_union = yes
+		}
+		effect = {
+			set_global_flag = monarch_SWE_No.01a
+			#break_union = DAN
+			define_heir = { 
+		        name = "Karl"
+		        monarch_name = "Karl VIII"
+		        dynasty = "Bonde"
+		        birth_date = 1409.10.5
+		        death_date = 1470.5.15
+		        claim = 95
+		        adm = 3
+		        dip = 1 # dip = 0
+		        mil = 2
+		    }
+            hidden_effect = {
+                define_ruler = { 
+		            name = "(Regent) Karl"
+		            dynasty = "Bonde"
+		            claim = 95
+		            adm = 3
+		            dip = 1 # dip = 0
+		            mil = 2
+		            regency = yes
+		        }
+            }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_SWE_No.02a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = SWE
+		    has_ruler = "Karl VIII"
+		    NOT = { is_year = 1513 }
+		    NOT = { has_global_flag = monarch_SWE_No.02a }
+		}
+		allow = {
+		    is_year = 1455
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SWE_No.02a
+			define_heir = { 
+		        name = "Hans"
+		        monarch_name = "Johan II" # Hans I of Danmark, King of Kalmar
+		        dynasty = "von Oldenburg"
+		        claim = 95
+		        birth_date = 1455.2.2
+		        death_date = 1513.2.20
+		        adm = 1
+		        dip = 3
+		        mil = 4
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_SWE_No.03a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = SWE
+		    has_ruler = "Johan II"
+		    NOT = { is_year = 1559 }
+		    NOT = { has_global_flag = monarch_SWE_No.03a }
+		}
+		allow = {
+		    is_year = 1481
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SWE_No.03a
+			define_heir = { 
+		        name = "Christian"
+		        monarch_name = "Christian II" # Christian II of Danmark,  King of Kalmar
+		        dynasty = "von Oldenburg"
+		        birth_date = 1481.7.1
+		        death_date = 1559.1.25
+		        claim = 95
+		        adm = 1
+		        dip = 1
+		        mil = 1 # mil = 0
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_SWE_No.04a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = SWE
+		    has_ruler = "Christian II"
+		    NOT = { is_year = 1560 }
+		    NOT = { has_global_flag = monarch_SWE_No.04a }
+		}
+		allow = {
+		    is_year = 1496
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SWE_No.04a
+			define_heir = { 
+	            name = "Gustav"
+	            monarch_name = "Gustav I"
+		        dynasty = "Vasa"
+		        birth_date = 1496.5.12
+		        death_date = 1560.9.29
+		        claim = 95
+		        adm = 6
+		        dip = 4
+		        mil = 4
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_SWE_No.05a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = SWE
+		    has_ruler = "Gustav I"
+		    NOT = { is_year = 1577 }
+		    NOT = { has_global_flag = monarch_SWE_No.05a }
+		}
+		allow = {
+		    is_year = 1533
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SWE_No.05a
+			define_heir = { 
+	            name = "Erik"
+		        monarch_name = "Erik XIV"
+		        dynasty = "Vasa"
+		        birth_date = 1533.12.13
+		        death_date = 1577.2.26
+		        claim = 75
+		        adm = 3
+		        dip = 3
+		        mil = 4
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_SWE_No.06a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = SWE
+		    has_ruler = "Erik XIV"
+		    NOT = { is_year = 1592 }
+		    NOT = { has_global_flag = monarch_SWE_No.06a }
+		}
+		allow = {
+		    is_year = 1537
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SWE_No.06a
+			define_heir = { 
+		        name = "Johan"
+		        monarch_name = "Johan III"
+		        dynasty = "Vasa"
+		        birth_date = 1537.12.20
+		        death_date = 1592.11.17
+		        claim = 90
+		        adm = 3
+		        mil = 3
+		        dip = 3
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_SWE_No.07a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = SWE
+		    has_ruler = "Johan III"
+		    NOT = { is_year = 1632 }
+		    NOT = { has_global_flag = monarch_SWE_No.07a }
+		}
+		allow = {
+		    is_year = 1566
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SWE_No.07a
+			define_heir = {
+		        name = "Sigismund"
+		        monarch_name = "Sigismund III"
+		        dynasty = "Vasa"
+		        birth_date = 1566.6.20
+		        death_date = 1632.4.30
+		        claim = 95
+		        adm = 2
+		        dip = 2
+		        mil = 3
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_SWE_No.08a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = SWE
+		    has_ruler = "Sigismund III"
+		    NOT = { is_year = 1611 }
+		    NOT = { has_global_flag = monarch_SWE_No.08a }
+		}
+		allow = {
+		    is_year = 1550
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SWE_No.08a
+			define_heir = {
+		        name = "Karl"
+		        monarch_name = "Karl IX"
+		        dynasty = "Vasa"
+		        birth_date = 1550.10.4
+		        death_date = 1611.10.30
+		        adm = 5
+		        dip = 4
+		        mil = 1 # mil = 0
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_SWE_No.09a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = SWE
+		    has_ruler = "Karl IX"
+		    NOT = { is_year = 1632 }
+		    NOT = { has_global_flag = monarch_SWE_No.09a }
+		}
+		allow = {
+		    is_year = 1594
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SWE_No.09a
+			define_heir = { 
+		        name = "Gustav Adolf"
+		        monarch_name = "Gustav II Adolf"
+		        dynasty = "Vasa"
+		        birth_date = 1594.12.19
+		        death_date = 1632.11.6
+		        claim = 90
+		        adm = 6
+		        dip = 6
+		        mil = 6
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_SWE_No.10a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = SWE
+		    has_ruler = "Gustav II Adolf"
+		    NOT = { is_year = 1689 }
+		    NOT = { has_global_flag = monarch_SWE_No.10a }
+		}
+		allow = {
+		    is_year = 1626
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SWE_No.10a
+			define_heir = { 
+		        name = "Kristina"
+		        monarch_name = "Kristina" # Queen Christina
+		        dynasty = "Vasa"
+		        birth_date = 1626.12.18
+		        death_date = 1689.4.19
+		        claim = 90
+		        female = yes
+		        adm = 2
+		        dip = 3
+		        mil = 3
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_SWE_No.11a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = SWE
+		    OR = { has_ruler = "Kristina" AND = { has_ruler = "Kristina I" } }
+		    NOT = { is_year = 1660 }
+		    NOT = { has_global_flag = monarch_SWE_No.11a }
+		}
+		allow = {
+		    is_year = 1622
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SWE_No.11a
+			define_heir = { 
+		        name = "Karl Gustav"
+		        monarch_name = "Karl X Gustav"
+		        dynasty = "von Wittelsbach"
+		        birth_date = 1622.11.8
+		        death_date = 1660.2.13
+		        claim = 95
+		        adm = 3
+		        dip = 1
+		        mil = 6
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_SWE_No.12a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = SWE
+		    has_ruler = "Karl X Gustav"
+		    NOT = { is_year = 1697 }
+		    NOT = { has_global_flag = monarch_SWE_No.12a }
+		}
+		allow = {
+		    is_year = 1655
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SWE_No.12a
+			define_heir = {
+			    name = "Karl"
+		        monarch_name = "Karl XI"
+		        dynasty = "von Wittelsbach"
+		        birth_date = 1655.12.4
+		        death_date = 1697.4.5
+		        adm = 5
+		        dip = 3
+		        mil = 2
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_SWE_No.13a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = SWE
+		    has_ruler = "Karl XI"
+		    NOT = { is_year = 1718 }
+		    NOT = { has_global_flag = monarch_SWE_No.13a }
+		}
+		allow = {
+		    is_year = 1682
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SWE_No.13a
+			define_heir = { 
+		        name = "Karl"
+		        monarch_name = "Karl XII"
+		        dynasty = "von Wittelsbach"
+		        birth_date = 1682.6.17
+		        death_date = 1718.11.30
+		        claim = 95
+		        adm = 3
+		        dip = 1
+		        mil = 6
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_SWE_No.14a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = SWE
+		    has_ruler = "Karl XII"
+		    NOT = { is_year = 1741 }
+		    NOT = { has_global_flag = monarch_SWE_No.14a }
+		}
+		allow = {
+		    is_year = 1688
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SWE_No.14a
+			define_heir = {
+		        name = "Ulrika Eleonora"
+		        monarch_name = "Ulrika Eleonora"
+		        dynasty = "von Wittelsbach"
+		        birth_date = 1688.1.23
+		        death_date = 1741.11.24
+		        claim = 80
+		        female = yes
+		        adm = 3
+		        dip = 4
+		        mil = 2
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_SWE_No.15a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = SWE
+		    OR = { has_ruler = "Ulrika Eleonora" AND = { has_ruler = "Ulrika Eleonora I" } }
+		    NOT = { is_year = 1751 }
+		    NOT = { has_global_flag = monarch_SWE_No.15a }
+		}
+		allow = {
+		    is_year = 1676
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SWE_No.15a
+			define_heir = {
+		        name = "Fredrik"
+		        monarch_name = "Fredrik I"
+		        dynasty = "von Hesse-Kassel"
+		        birth_date = 1676.4.18
+		        death_date = 1751.3.25
+		        adm = 3
+		        dip = 2
+		        mil = 4
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_SWE_No.16a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = SWE
+		    has_ruler = "Fredrik I"
+		    NOT = { is_year = 1771 }
+		    NOT = { has_global_flag = monarch_SWE_No.16a }
+		}
+		allow = {
+		    is_year = 1710
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SWE_No.16a
+			define_heir = { 
+		        name = "Adolf Fredrik"
+		        monarch_name = "Adolf Fredrik"
+		        dynasty = "von Holstein-Gottorp"
+		        birth_date = 1710.5.4
+		        death_date = 1771.2.12
+		        claim = 95
+		        adm = 4
+		        dip = 3
+		        mil = 2
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_SWE_No.17a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = SWE
+		    OR = { has_ruler = "Adolf Fredrik" AND = { has_ruler = "Adolf Fredrik I" } }
+		    NOT = { is_year = 1792 }
+		    NOT = { has_global_flag = monarch_SWE_No.17a }
+		}
+		allow = {
+		    is_year = 1746
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SWE_No.17a
+			define_heir = { 
+		        name = "Gustav"
+		        monarch_name = "Gustav III"
+		        dynasty = "von Holstein-Gottorp"
+		        birth_date = 1746.1.24
+		        death_date = 1792.3.29
+		        claim = 95
+		        adm = 5
+		        dip = 4
+		        mil = 2
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_SWE_No.18a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = SWE
+		    has_ruler = "Gustav III"
+		    NOT = { is_year = 1837 }
+		    NOT = { has_global_flag = monarch_SWE_No.18a }
+		}
+		allow = {
+		    is_year = 1778
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SWE_No.18a
+			define_heir = { 
+		        name = "Gustav Adolf"
+		        monarch_name = "Gustav IV Adolf"
+		        dynasty = "von Holstein-Gottorp"
+		        birth_date = 1778.11.1
+		        death_date = 1837.2.7
+		        claim = 95
+		        adm = 4
+		        dip = 1 # dip = 0
+		        mil = 2
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_SWE_No.19a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = SWE
+		    has_ruler = "Gustav IV Adolf"
+		    NOT = { is_year = 1818 }
+		    NOT = { has_global_flag = monarch_SWE_No.19a }
+		}
+		allow = {
+		    is_year = 1748
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SWE_No.19a
+			define_heir = {
+		        name = "Karl"
+		        monarch_name = "Karl XIII"
+		        dynasty = "von Holstein-Gottorp"
+		        birth_date = 1748.10.7
+		        death_date = 1818.2.5
+		        claim = 80
+		        adm = 2
+		        dip = 5
+		        mil = 2
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_SWE_No.20a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = SWE
+		    has_ruler = "Karl XIII"
+		    NOT = { is_year = 1844 }
+		    NOT = { has_global_flag = monarch_SWE_No.20a }
+		}
+		allow = {
+		    is_year = 1763
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SWE_No.20a
+			define_heir = { 
+		        name = "Jean-Baptiste" # Jean-Baptiste Jules Bernadotte
+		        monarch_name = "Karl XIV Johan"
+		        dynasty = "Bernadotte"
+		        birth_date = 1763.1.26
+		        death_date = 1844.3.8
+		        claim = 95
+		        adm = 2
+		        dip = 2
+		        mil = 4
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+}

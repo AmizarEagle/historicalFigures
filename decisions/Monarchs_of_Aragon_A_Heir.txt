@@ -1,0 +1,69 @@
+country_decisions = {
+
+	monarch_ARA_No.00a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = ARA
+		    has_ruler = "Alfons V"
+		    NOT = { is_year = 1479 }
+		    NOT = { has_global_flag = monarch_ARA_No.00a }
+		}
+		allow = {
+		    is_year = 1397
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ARA_No.00a
+			define_heir = { 
+		        name = "Joan"
+		        monarch_name = "Joan II"
+		        dynasty = "de Trastámara"
+		        birth_date = 1397.6.29
+		        death_date = 1479.1.20
+		        claim = 95
+		        adm = 4
+		        dip = 1
+		        mil = 1 # mil = 0
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_ARA_No.01a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = ARA
+		    has_ruler = "Joan II"
+		    NOT = { is_year = 1516 }
+		    NOT = { has_global_flag = monarch_ARA_No.01a }
+		}
+		allow = {
+		    is_year = 1452
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ARA_No.01a
+			define_heir = { 
+		        name = "Ferran"
+		        monarch_name = "Ferran II"
+		        dynasty = "de Trastámara"
+		        birth_date = 1452.3.10
+		        death_date = 1516.1.23
+		        claim = 95
+		        adm = 4
+		        dip = 6
+		        mil = 5
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+}

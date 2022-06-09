@@ -1,0 +1,257 @@
+country_decisions = {
+
+	monarch_ANH_No.00b = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = ANH
+		    has_ruler = "Georg I"
+		    has_global_flag = monarch_ANH_No.00a
+		    NOT = { is_year = 1516 }
+		    NOT = { has_global_flag = monarch_ANH_No.00b }
+		}
+		allow = {
+		    is_year = 1474
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ANH_No.00b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_ANH_No.01b = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = ANH
+		    has_ruler = "Ernst I"
+		    has_global_flag = monarch_ANH_No.01a
+		    NOT = { is_year = 1551 }
+		    NOT = { has_global_flag = monarch_ANH_No.01b }
+		}
+		allow = {
+		    is_year = 1516
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ANH_No.01b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_ANH_No.02b = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = ANH
+		    has_ruler = "Johann II"
+		    has_global_flag = monarch_ANH_No.02a
+		    NOT = { is_year = 1586 }
+		    NOT = { has_global_flag = monarch_ANH_No.02b }
+		}
+		allow = {
+		    is_year = 1551
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ANH_No.02b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_ANH_No.03b = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = ANH
+		    OR = { 
+		        has_ruler = "Joachim Ernst"
+		        has_ruler = "Joachim Ernst I"
+		    }
+		    has_global_flag = monarch_ANH_No.03a
+		    NOT = { is_year = 1618 }
+		    NOT = { has_global_flag = monarch_ANH_No.03b }
+		}
+		allow = {
+		    is_year = 1586
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ANH_No.03b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_ANH_No.04b = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = ANH
+		    has_ruler = "Johann Georg I"
+		    has_global_flag = monarch_ANH_No.04a
+		    NOT = { is_year = 1660 }
+		    NOT = { has_global_flag = monarch_ANH_No.04b }
+		}
+		allow = {
+		    is_year = 1618
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ANH_No.04b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_ANH_No.05b = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = ANH
+		    has_ruler = "Johann Kasimir I"
+		    has_global_flag = monarch_ANH_No.05a
+		    NOT = { is_year = 1693 }
+		    NOT = { has_global_flag = monarch_ANH_No.05b }
+		}
+		allow = {
+		    is_year = 1660
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ANH_No.05b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_ANH_No.06b = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = ANH
+		    has_ruler = "Johann Georg II"
+		    has_global_flag = monarch_ANH_No.06a
+		    NOT = { is_year = 1747 }
+		    NOT = { has_global_flag = monarch_ANH_No.06b }
+		}
+		allow = {
+		    is_year = 1693
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ANH_No.06b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_ANH_No.07b = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = ANH
+		    has_ruler = "Leopold I"
+		    has_global_flag = monarch_ANH_No.07a
+		    NOT = { has_global_flag = monarch_ANH_No.08a }
+		    NOT = { is_year = 1751 }
+		    NOT = { has_global_flag = monarch_ANH_No.07b }
+		}
+		allow = {
+		    is_year = 1747
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ANH_No.07b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_ANH_No.08b = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = ANH
+		    has_ruler = "Leopold II Maximilian"
+		    has_global_flag = monarch_ANH_No.08a
+		    NOT = { is_year = 1817 }
+		    NOT = { has_global_flag = monarch_ANH_No.08b }
+		}
+		allow = {
+		    is_year = 1751
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ANH_No.08b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_ANH_No.09b = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = ANH
+		    has_ruler = "Leopold III"
+		    has_global_flag = monarch_ANH_No.09a
+		    NOT = { is_year = 1871 }
+		    NOT = { has_global_flag = monarch_ANH_No.09b }
+		}
+		allow = {
+		    is_year = 1817
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ANH_No.09b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+}

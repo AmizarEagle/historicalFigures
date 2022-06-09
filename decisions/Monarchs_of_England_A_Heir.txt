@@ -1,0 +1,706 @@
+country_decisions = {
+
+	monarch_ENG_No.00a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    OR = { tag = ENG AND = { tag = GBR } }
+		    has_ruler = "Henry VI"
+		    NOT = { is_year = 1471 }
+		    NOT = { has_global_flag = monarch_ENG_No.00a }
+		    NOT = { has_global_flag = monarch_ENG_No.01a }
+		}
+		allow = {
+		    is_year = 1453
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ENG_No.00a
+			define_heir = { 
+		        name = "Edward" # Edward of Westminster
+		        monarch_name = "Edward IV"
+		        dynasty = "Lancaster"
+		        birth_date = 1453.10.13
+		        death_date = 1471.5.4
+		        claim = 95
+		        adm = 1
+		        dip = 2
+		        mil = 4
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_ENG_No.01a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    OR = { tag = ENG AND = { tag = GBR } }
+		    has_ruler = "Henry VI"
+		    NOT = { is_year = 1483 }
+		    NOT = { has_global_flag = monarch_ENG_No.00a }
+		    NOT = { has_global_flag = monarch_ENG_No.01a }
+		}
+		allow = {
+		    is_year = 1442
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ENG_No.01a
+			define_heir = { 
+		        name = "Edward"
+		        monarch_name = "Edward IV"
+		        dynasty = "York"
+		        birth_date = 1442.4.28
+		        death_date = 1483.4.9
+		        claim = 95
+		        adm = 3
+		        dip = 2
+		        mil = 4
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_ENG_No.02a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    OR = { tag = ENG AND = { tag = GBR } }
+		    has_ruler = "Edward IV"
+		    NOT = { is_year = 1483 }
+		    NOT = { has_global_flag = monarch_ENG_No.00a }
+		    NOT = { has_global_flag = monarch_ENG_No.02a }
+		    NOT = { has_global_flag = monarch_ENG_No.03a }
+		}
+		allow = {
+		    is_year = 1470
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ENG_No.02a
+			define_heir = { 
+		        name = "Edward"
+		        monarch_name = "Edward V"
+		        dynasty = "York"
+		        birth_date = 1470.11.2
+		        death_date = 1483.6.26
+		        claim = 95
+		        adm = 3
+		        dip = 2
+		        mil = 2
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_ENG_No.03a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    OR = { tag = ENG AND = { tag = GBR } }
+		    OR = { has_ruler = "Edward IV" AND = { has_ruler = "Edward V" } }
+		    NOT = { is_year = 1485 }
+		    NOT = { has_global_flag = monarch_ENG_No.02a }
+		    NOT = { has_global_flag = monarch_ENG_No.03a }
+		}
+		allow = {
+		    is_year = 1452
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ENG_No.03a
+			define_heir = { 
+		        name = "Richard"
+		        monarch_name = "Richard III"	
+		        dynasty = "York"
+		        birth_date = 1452.10.2
+		        death_date = 1485.8.22
+		        claim = 95
+		        adm = 3
+		        mil = 2
+		        dip = 4
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_ENG_No.04a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    OR = { tag = ENG AND = { tag = GBR } }
+		    OR = { has_ruler = "Richard III" }
+		    NOT = { is_year = 1509 }
+		    NOT = { has_global_flag = monarch_ENG_No.04a }
+		}
+		allow = {
+		    is_year = 1457
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ENG_No.04a
+			define_heir = { 
+	            name = "Henry"
+	            monarch_name = "Henry VII"
+		        dynasty = "Tudor"
+		        birth_date = 1457.1.28
+		        death_date = 1509.4.21
+		        claim = 95
+		        adm = 3
+		        dip = 4
+		        mil = 2
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_ENG_No.05a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    OR = { tag = ENG AND = { tag = GBR } }
+		    has_ruler = "Henry VII"
+		    NOT = { is_year = 1547 }
+		    NOT = { has_global_flag = monarch_ENG_No.05a }
+		}
+		allow = {
+		    is_year = 1491
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ENG_No.05a
+			define_heir = { 
+	            name = "Henry"
+	            monarch_name = "Henry VIII"
+	            dynasty = "Tudor"
+	            birth_date = 1491.6.28
+	            death_date = 1547.1.28
+	            claim = 95
+	            adm = 4
+	            dip = 4
+	            mil = 4
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_ENG_No.06a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    OR = { tag = ENG AND = { tag = GBR } }
+		    has_ruler = "Henry VIII"
+		    NOT = { is_year = 1553 }
+		    NOT = { has_global_flag = monarch_ENG_No.06a }
+		}
+		allow = {
+		    is_year = 1537
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ENG_No.06a
+			define_heir = { 
+		        name = "Edward"
+		        monarch_name = "Edward VI"
+		        dynasty = "Tudor"
+		        birth_date = 1537.10.12
+		        death_date = 1553.7.6
+		        claim = 95
+		        adm = 3
+		        dip = 3
+		        mil = 1
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_ENG_No.07a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    OR = { tag = ENG AND = { tag = GBR } }
+		    has_ruler = "Edward VI"
+		    NOT = { is_year = 1554 }
+		    NOT = { has_global_flag = monarch_ENG_No.07a }
+		}
+		allow = {
+		    is_year = 1536
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ENG_No.07a
+			define_heir = {
+		        name = "Jane"
+		        monarch_name = "Jane I"
+		        dynasty = "Grey"
+		        birth_date = 1536.1.1
+		        death_date = 1554.2.12
+		        adm = 3
+		        dip = 2
+		        mil = 2
+		        female = yes
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_ENG_No.08a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    OR = { tag = ENG AND = { tag = GBR } }
+		    OR = { has_ruler = "Edward VI" AND = { has_ruler = "Jane I" } }
+		    NOT = { is_year = 1558 }
+		    NOT = { has_global_flag = monarch_ENG_No.08a }
+		}
+		allow = {
+		    is_year = 1516
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ENG_No.08a
+			define_heir = { 
+		        name = "Mary"
+		        monarch_name = "Mary I"
+		        dynasty = "Tudor"
+		        birth_date = 1516.2.18
+		        death_date = 1558.11.17
+		        claim = 95
+		        adm = 1
+		        dip = 1
+		        mil = 1 # mil = 0
+		        female = yes
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_ENG_No.09a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    OR = { tag = ENG AND = { tag = GBR } }
+		    has_ruler = "Mary I"
+		    NOT = { is_year = 1603 }
+		    NOT = { has_global_flag = monarch_ENG_No.09a }
+		    NOT = { has_global_flag = wih_elizabeth_eng_flag } # Women in History
+		}
+		allow = {
+		    is_year = 1533
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ENG_No.09a
+			set_global_flag = wih_elizabeth_eng_flag # Women in History
+			define_heir = { 
+		        name = "Elizabeth"
+		        monarch_name = "Elizabeth I"
+		        dynasty = "Tudor"
+		        birth_date = 1533.9.7
+		        death_date = 1603.3.24
+		        claim = 95
+		        adm = 6
+		        dip = 6
+		        mil = 5
+		        female = yes
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_ENG_No.10a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    OR = { tag = ENG AND = { tag = GBR } }
+		    OR = { has_ruler = "Elizabeth I" AND = { has_ruler = "Elizabeth" } }
+		    NOT = { is_year = 1625 }
+		    NOT = { has_global_flag = monarch_ENG_No.10a }
+		}
+		allow = {
+		    is_year = 1566
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ENG_No.10a
+			define_heir = { 
+		        name = "Charles James"
+		        monarch_name = "James I"
+		        dynasty = "Stuart"
+		        birth_date = 1566.6.19
+		        death_date = 1625.3.27
+		        claim = 95
+		        adm = 2
+		        dip = 3
+		        mil = 1
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_ENG_No.11a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    OR = { tag = ENG AND = { tag = GBR } }
+		    has_ruler = "James I"
+		    NOT = { is_year = 1649 }
+		    NOT = { has_global_flag = monarch_ENG_No.11a }
+		}
+		allow = {
+		    is_year = 1600
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ENG_No.11a
+			define_heir = { 
+		        name = "Charles"
+		        monarch_name = "Charles I"
+		        dynasty = "Stuart"
+		        birth_date = 1600.11.19
+		        death_date = 1649.1.30
+		        claim = 95
+		        adm = 2
+		        dip = 3
+		        mil = 2
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_ENG_No.12a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    OR = { tag = ENG AND = { tag = GBR } }
+		    has_ruler = "Charles I"
+		    NOT = { is_year = 1685 }
+		    NOT = { has_global_flag = monarch_ENG_No.12a }
+		}
+		allow = {
+		    is_year = 1630
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ENG_No.12a
+			define_heir = { 
+		        name = "Charles"
+		        monarch_name = "Charles II"
+		        dynasty = "Stuart"
+		        birth_date = 1630.5.29
+		        death_date = 1685.2.6
+		        claim = 95
+		        adm = 3
+		        dip = 2
+		        mil = 1 # mil = 0
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_ENG_No.13a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    OR = { tag = ENG AND = { tag = GBR } }
+		    has_ruler = "Charles II"
+		    NOT = { is_year = 1701 }
+		    NOT = { has_global_flag = monarch_ENG_No.13a }
+		}
+		allow = {
+		    is_year = 1633
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ENG_No.13a
+			define_heir = { 
+		        name = "James"
+		        monarch_name = "James II"
+		        dynasty = "Stuart"
+		        birth_date = 1633.10.14
+		        death_date = 1701.9.16
+		        claim = 95
+		        adm = 2
+		        dip = 2
+		        mil = 3
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_ENG_No.14a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    OR = { tag = ENG AND = { tag = GBR } }
+		    has_ruler = "James II"
+		    NOT = { is_year = 1694 }
+		    NOT = { has_global_flag = monarch_ENG_No.14a }
+		}
+		allow = {
+		    is_year = 1662
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ENG_No.14a
+			define_heir = {
+		        name = "Mary"
+		        monarch_name = "Mary II"
+		        dynasty = "Stuart"
+		        birth_date = 1662.4.30
+		        death_date = 1694.12.28
+		        claim = 95
+		        adm = 2
+		        dip = 4
+		        mil = 3
+		        female = yes
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_ENG_No.15a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    OR = { tag = ENG AND = { tag = GBR } }
+		    has_ruler = "Mary II"
+		    NOT = { is_year = 1702 }
+		    NOT = { has_global_flag = monarch_ENG_No.15a }
+		}
+		allow = {
+		    is_year = 1650
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ENG_No.15a
+			define_heir = {
+		        name = "William"
+		        monarch_name = "William III"
+		        dynasty = "van Oranje"
+		        birth_date = 1650.11.4
+		        death_date = 1702.3.8
+		        adm = 3
+		        dip = 5
+		        mil = 5
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_ENG_No.16a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    OR = { tag = ENG AND = { tag = GBR } }
+		    has_ruler = "William III"
+		    NOT = { is_year = 1714 }
+		    NOT = { has_global_flag = monarch_ENG_No.16a }
+		}
+		allow = {
+		    is_year = 1665
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ENG_No.16a
+			define_heir = { 
+		        name = "Anne"
+		        monarch_name = "Anne I"
+		        dynasty = "Stuart"
+		        birth_date = 1665.2.6
+		        death_date = 1714.8.1
+		        claim = 95
+		        adm = 3
+		        dip = 5
+		        mil = 4
+		        female = yes
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_ENG_No.17a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    OR = { tag = ENG AND = { tag = GBR } }
+		    has_ruler = "Anne I"
+		    NOT = { is_year = 1727 }
+		    NOT = { has_global_flag = monarch_ENG_No.17a }
+		}
+		allow = {
+		    is_year = 1660
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ENG_No.17a
+			define_heir = { 
+		        name = "George Louis"
+		        monarch_name = "George I"
+		        dynasty = "von Hannover"
+		        birth_date = 1660.5.28
+		        death_date = 1727.6.11
+		        claim = 95
+		        adm = 3
+		        dip = 3
+		        mil = 5
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_ENG_No.18a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    OR = { tag = ENG AND = { tag = GBR } }
+		    has_ruler = "George I"
+		    NOT = { is_year = 1760 }
+		    NOT = { has_global_flag = monarch_ENG_No.18a }
+		}
+		allow = {
+		    is_year = 1683
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ENG_No.18a
+			define_heir = { 
+		        name = "George Augustus"
+		        monarch_name = "George II"
+		        dynasty = "von Hannover"
+		        birth_date = 1683.11.9
+		        death_date = 1760.10.25
+		        claim = 95
+		        adm = 4
+		        dip = 3
+		        mil = 4
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_ENG_No.19a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    OR = { tag = ENG AND = { tag = GBR } }
+		    has_ruler = "George II"
+		    NOT = { is_year = 1820 }
+		    NOT = { has_global_flag = monarch_ENG_No.19a }
+		}
+		allow = {
+		    is_year = 1736
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ENG_No.19a
+			define_heir = {
+		        name = "George William"
+		        monarch_name = "George III"
+		        dynasty = "von Hannover"
+		        birth_date = 1738.6.4
+		        death_date = 1820.1.29
+		        claim = 95
+		        adm = 1
+		        dip = 1
+		        mil = 4
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_ENG_No.20a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    OR = { tag = ENG AND = { tag = GBR } }
+		    has_ruler = "George III"
+		    NOT = { is_year = 1830 }
+		    NOT = { has_global_flag = monarch_ENG_No.20a }
+		}
+		allow = {
+		    is_year = 1762
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ENG_No.20a
+			define_heir = { 
+		        name = "George Augustus"
+		        monarch_name = "George IV"
+		        dynasty = "von Hannover"
+		        birth_date = 1762.8.12
+		        death_date = 1830.6.26
+		        claim = 95
+		        adm = 2
+		        dip = 3
+		        mil = 3
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+}

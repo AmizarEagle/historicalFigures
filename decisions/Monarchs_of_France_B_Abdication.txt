@@ -1,0 +1,526 @@
+country_decisions = {
+
+	monarch_FRA_No.00b = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = FRA
+		    has_ruler = "Charles VII"
+		    has_global_flag = monarch_FRA_No.00a
+		    NOT = { is_year = 1483 }
+		    NOT = { has_global_flag = monarch_FRA_No.00b }
+		}
+		allow = {
+		    is_year = 1461
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_FRA_No.00b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_FRA_No.01b = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = FRA
+		    has_ruler = "Louis XI"
+		    has_global_flag = monarch_FRA_No.01a
+		    NOT = { is_year = 1498 }
+		    NOT = { has_global_flag = monarch_FRA_No.01b }
+		}
+		allow = {
+		    is_year = 1483
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_FRA_No.01b
+            if = {
+                limit = {
+                    is_year = 1461
+                    NOT = { is_year = 1522 } 
+                    NOT = { heir_age = 15 }                         
+                    }
+                    define_ruler = { 
+		                name = "(Regent) Anne"
+		                dynasty = "de Beaujeu"
+		                claim = 95
+		                adm = 1
+		                dip = 1
+		                mil = 1
+		                female = yes
+		                regency = yes
+		            }
+		            hidden_effect = {
+			            add_legitimacy = 100
+			            add_stability = -1
+			        }
+            }
+            if = {
+                limit = {
+                    heir_age = 15                         
+                    }
+                    kill_ruler = yes
+			        hidden_effect = { add_legitimacy = 100 }
+            }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_FRA_No.02b = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = FRA
+		    has_ruler = "Charles VIII"
+		    has_global_flag = monarch_FRA_No.02a
+		    NOT = { is_year = 1515 }
+		    NOT = { has_global_flag = monarch_FRA_No.02b }
+		}
+		allow = {
+		    is_year = 1498
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_FRA_No.02b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_FRA_No.03b = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = FRA
+		    has_ruler = "Louis XII"
+		    has_global_flag = monarch_FRA_No.03a
+		    NOT = { is_year = 1547 }
+		    NOT = { has_global_flag = monarch_FRA_No.03b }
+		}
+		allow = {
+		    is_year = 1515
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_FRA_No.03b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_FRA_No.04b = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = FRA
+		    has_ruler = "François I"
+		    has_global_flag = monarch_FRA_No.04a
+		    NOT = { is_year = 1559 }
+		    NOT = { has_global_flag = monarch_FRA_No.04b }
+		}
+		allow = {
+		    is_year = 1547
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_FRA_No.04b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_FRA_No.05b = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = FRA
+		    has_ruler = "Henri II"
+		    has_global_flag = monarch_FRA_No.05a
+		    NOT = { is_year = 1560 }
+		    NOT = { has_global_flag = monarch_FRA_No.05b }
+		}
+		allow = {
+		    is_year = 1559
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_FRA_No.05b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_FRA_No.06b = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = FRA
+		    has_ruler = "François II"
+		    has_global_flag = monarch_FRA_No.06a
+		    NOT = { is_year = 1574 }
+		    NOT = { has_global_flag = monarch_FRA_No.06b }
+		}
+		allow = {
+		    is_year = 1560
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_FRA_No.06b
+            if = {
+                limit = {
+                    is_year = 1519
+                    NOT = { is_year = 1589 } 
+                    NOT = { heir_age = 15 }                         
+                    }
+                    define_ruler = { 
+		                name = "(Regent) Catherine" # Catherine de Médicis or Caterina de' Medici
+		                dynasty = "de Médicis"
+		                claim = 95
+		                adm = 2
+		                dip = 2
+		                mil = 2
+		                female = yes
+		                regency = yes
+		            }
+		            hidden_effect = {
+			            add_legitimacy = 100
+			            add_stability = -1
+			        }
+            }
+            if = {
+                limit = {
+                    heir_age = 15                         
+                    }
+                    kill_ruler = yes
+			        hidden_effect = { add_legitimacy = 100 }
+            }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_FRA_No.07b = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = FRA
+		    has_ruler = "Charles IX"
+		    has_global_flag = monarch_FRA_No.07a
+		    NOT = { is_year = 1589 }
+		    NOT = { has_global_flag = monarch_FRA_No.07b }
+		}
+		allow = {
+		    is_year = 1574
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_FRA_No.07b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_FRA_No.08b = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = FRA
+		    has_ruler = "Henri III"
+		    has_global_flag = monarch_FRA_No.08a
+		    NOT = { is_year = 1610 }
+		    NOT = { has_global_flag = monarch_FRA_No.08b }
+		}
+		allow = {
+		    is_year = 1589
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_FRA_No.08b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_FRA_No.09b = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = FRA
+		    has_ruler = "Henri IV"
+		    has_global_flag = monarch_FRA_No.09a
+		    NOT = { is_year = 1643 }
+		    NOT = { has_global_flag = monarch_FRA_No.09b }
+		}
+		allow = {
+		    is_year = 1610
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_FRA_No.09b
+            if = {
+                limit = {
+                    is_year = 1575
+                    NOT = { is_year = 1642 } 
+                    NOT = { heir_age = 15 }                         
+                    }
+                    define_ruler = { 
+		                name = "(Regent) Marie" # Marie de Médicis or Maria de' Medici
+		                dynasty = "de Médicis"
+		                claim = 95
+		                adm = 1
+		                dip = 1
+		                mil = 1
+		                female = yes
+		                regency = yes
+		            }
+		            hidden_effect = {
+			            add_legitimacy = 100
+			            add_stability = -1
+			        }
+            }
+            if = {
+                limit = {
+                    heir_age = 15                         
+                    }
+                    kill_ruler = yes
+			        hidden_effect = { add_legitimacy = 100 }
+            }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_FRA_No.10b = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = FRA
+		    has_ruler = "Louis XIII"
+		    has_global_flag = monarch_FRA_No.10a
+		    NOT = { is_year = 1715 }
+		    NOT = { has_global_flag = monarch_FRA_No.10b }
+		}
+		allow = {
+		    is_year = 1643
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_FRA_No.10b
+            if = {
+                limit = {
+                    is_year = 1601
+                    NOT = { is_year = 1666 } 
+                    NOT = { heir_age = 15 }                         
+                    }
+                    define_ruler = { 
+		                name = "(Regent) Anne" # Anne d'Autriche or Anna von Habsburg
+		                dynasty = "d'Autriche"
+		                claim = 95
+		                adm = 1
+		                dip = 1
+		                mil = 1
+		                female = yes
+		                regency = yes
+		            }
+		            hidden_effect = {
+			            add_legitimacy = 100
+			            add_stability = -1
+			        }
+            }
+            if = {
+                limit = {
+                    heir_age = 15                         
+                    }
+                    kill_ruler = yes
+			        hidden_effect = { add_legitimacy = 100 }
+            }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_FRA_No.11b = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = FRA
+		    has_ruler = "Louis XIV"
+		    has_global_flag = monarch_FRA_No.11a
+		    NOT = { is_year = 1774 }
+		    NOT = { has_global_flag = monarch_FRA_No.11b }
+		}
+		allow = {
+		    is_year = 1715
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_FRA_No.11b
+            if = {
+                limit = { 
+                    NOT = { is_year = 1722 } 
+                    NOT = { heir_age = 15 }                         
+                    }
+                    define_ruler = { 
+		                name = "(Regent) Philippe II" # Philippe II d'Orléans
+		                dynasty = "d'Orléans"
+		                claim = 95
+		                adm = 2
+		                dip = 2
+		                mil = 2
+		                regency = yes
+		            }
+		            hidden_effect = {
+			            add_legitimacy = 100
+			            add_stability = -1
+			        }
+            }
+            if = {
+                limit = { 
+                    is_year = 1722
+                    NOT = { is_year = 1726 }
+                    NOT = { heir_age = 15 }                         
+                    }
+                    define_ruler = { 
+		                name = "(Regent) Louis IV Henri" # Louis IV Henri de Bourbon-Condé
+		                dynasty = "de Bourbon"
+		                claim = 95
+		                adm = 1
+		                dip = 1
+		                mil = 1
+		                regency = yes
+		            }
+		            hidden_effect = {
+			            add_legitimacy = 100
+			            add_stability = -1
+			        }
+            }
+            if = {
+                limit = {
+                    heir_age = 15                         
+                    }
+                    kill_ruler = yes
+			        hidden_effect = { add_legitimacy = 100 }
+            }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_FRA_No.12b = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = FRA
+		    has_ruler = "Louis XV"
+		    has_global_flag = monarch_FRA_No.12a
+		    NOT = { is_year = 1793 }
+		    NOT = { has_global_flag = monarch_FRA_No.12b }
+		}
+		allow = {
+		    is_year = 1774
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_FRA_No.12b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_FRA_No.13b = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = FRA
+		    has_ruler = "Louis XVI"
+		    has_global_flag = monarch_FRA_No.13a
+		    NOT = { is_year = 1795 }
+		    NOT = { has_global_flag = monarch_FRA_No.13b }
+		}
+		allow = {
+		    is_year = 1793
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_FRA_No.13b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_FRA_No.14b = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = FRA
+		    has_ruler = "Louis XVII"
+		    has_global_flag = monarch_FRA_No.14a
+		    NOT = { is_year = 1824 }
+		    NOT = { has_global_flag = monarch_FRA_No.14b }
+		}
+		allow = {
+		    is_year = 1755
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_FRA_No.14b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+}

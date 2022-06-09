@@ -1,0 +1,404 @@
+country_decisions = {
+
+	monarch_PRU_No.00b = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    OR = { tag = BRA AND = { tag = PRU } }
+		    has_ruler = "Friedrich II"
+		    has_global_flag = monarch_PRU_No.00a
+		    NOT = { is_year = 1486 }
+		    NOT = { has_global_flag = monarch_PRU_No.00b }
+		}
+		allow = {
+		    is_year = 1471
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PRU_No.00b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_PRU_No.01b = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    OR = { tag = BRA AND = { tag = PRU } }
+		    has_ruler = "Albrecht III Achilles"
+		    has_global_flag = monarch_PRU_No.01a
+		    NOT = { is_year = 1499 }
+		    NOT = { has_global_flag = monarch_PRU_No.01b }
+		}
+		allow = {
+		    is_year = 1486
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PRU_No.01b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_PRU_No.02b = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    OR = { tag = BRA AND = { tag = PRU } }
+		    has_ruler = "Johann Cicero I"
+		    has_global_flag = monarch_PRU_No.01a
+		    NOT = { is_year = 1535 }
+		    NOT = { has_global_flag = monarch_PRU_No.02b }
+		}
+		allow = {
+		    is_year = 1499
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PRU_No.02b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_PRU_No.03b = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    OR = { tag = BRA AND = { tag = PRU } }
+		    has_ruler = "Joachim I Nestor"
+		    has_global_flag = monarch_PRU_No.03a
+		    NOT = { is_year = 1571 }
+		    NOT = { has_global_flag = monarch_PRU_No.03b }
+		}
+		allow = {
+		    is_year = 1535
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PRU_No.03b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_PRU_No.04b = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    OR = { tag = BRA AND = { tag = PRU } }
+		    has_ruler = "Joachim II Hektor"
+		    has_global_flag = monarch_PRU_No.04a
+		    NOT = { is_year = 1598 }
+		    NOT = { has_global_flag = monarch_PRU_No.04b }
+		}
+		allow = {
+		    is_year = 1571
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PRU_No.04b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_PRU_No.05b = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    OR = { tag = BRA AND = { tag = PRU } }
+		    has_ruler = "Johann Georg I"
+		    has_global_flag = monarch_PRU_No.05a
+		    NOT = { is_year = 1608 }
+		    NOT = { has_global_flag = monarch_PRU_No.05b }
+		}
+		allow = {
+		    is_year = 1598
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PRU_No.05b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_PRU_No.06b = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    OR = { tag = BRA AND = { tag = PRU } }
+		    has_ruler = "Joachim Friedrich I"
+		    has_global_flag = monarch_PRU_No.06a
+		    NOT = { is_year = 1619 }
+		    NOT = { has_global_flag = monarch_PRU_No.06b }
+		}
+		allow = {
+		    is_year = 1608
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PRU_No.06b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_PRU_No.07b = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    OR = { tag = BRA AND = { tag = PRU } }
+		    has_ruler = "Johann Sigismund I"
+		    has_global_flag = monarch_PRU_No.07a
+		    NOT = { has_global_flag = monarch_PRU_No.08a }
+		    NOT = { is_year = 1640 }
+		    NOT = { has_global_flag = monarch_PRU_No.07b }
+		}
+		allow = {
+		    is_year = 1619
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PRU_No.07b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_PRU_No.08b = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    OR = { tag = BRA AND = { tag = PRU } }
+		    has_ruler = "Georg Wilhelm I"
+		    has_global_flag = monarch_PRU_No.08a
+		    NOT = { is_year = 1688 }
+		    NOT = { has_global_flag = monarch_PRU_No.08b }
+		}
+		allow = {
+		    is_year = 1640
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PRU_No.08b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_PRU_No.09b = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    OR = { tag = BRA AND = { tag = PRU } }
+		    has_ruler = "Friedrich I Wilhelm"
+		    has_global_flag = monarch_PRU_No.09a
+		    NOT = { is_year = 1713 }
+		    NOT = { has_global_flag = monarch_PRU_No.09b }
+		}
+		allow = {
+		    is_year = 1688
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PRU_No.09b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_PRU_No.10b = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    OR = { tag = BRA AND = { tag = PRU } }
+		    has_ruler = "Friedrich I"
+		    has_global_flag = monarch_PRU_No.10a
+		    NOT = { is_year = 1740 }
+		    NOT = { has_global_flag = monarch_PRU_No.10b }
+		}
+		allow = {
+		    is_year = 1713
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PRU_No.10b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_PRU_No.11b = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    OR = { tag = BRA AND = { tag = PRU } }
+		    has_ruler = "Friedrich Wilhelm I"
+		    NOT = { is_year = 1786 }
+		    NOT = { has_global_flag = monarch_PRU_No.11b }
+		}
+		allow = {
+		    is_year = 1740
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PRU_No.11b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_PRU_No.12b = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    OR = { tag = BRA AND = { tag = PRU } }
+		    OR = { has_ruler = "Friedrich II der Groﬂe" AND = { has_ruler = "Friedrich II" } }
+		    has_global_flag = monarch_PRU_No.12a
+		    NOT = { is_year = 1797 }
+		    NOT = { has_global_flag = monarch_PRU_No.12b }
+		}
+		allow = {
+		    is_year = 1786
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PRU_No.12b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_PRU_No.13b = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    OR = { tag = BRA AND = { tag = PRU } }
+		    has_ruler = "Friedrich II Wilhelm"
+		    has_global_flag = monarch_PRU_No.13a
+		    NOT = { is_year = 1840 }
+		    NOT = { has_global_flag = monarch_PRU_No.13b }
+		}
+		allow = {
+		    is_year = 1797
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PRU_No.13b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_PRU_extra_No.00b = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = PRU
+		    exists = BRA
+		    NOT = { is_year = 1568 }
+		    NOT = { has_ruler = "Albrecht" }
+		    NOT = { has_global_flag = monarch_PRU_extra_No.00b }
+		}
+		allow = {
+		    is_year = 1525
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PRU_extra_No.00b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_PRU_extra_No.01b = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = PRU
+		    exists = BRA
+		    has_ruler = "Albrecht"
+		    has_global_flag = monarch_PRU_extra_No.01a
+		    NOT = { is_year = 1618 }
+		    NOT = { has_global_flag = monarch_PRU_extra_No.01b }
+		}
+		allow = {
+		    is_year = 1568
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PRU_extra_No.01b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+}

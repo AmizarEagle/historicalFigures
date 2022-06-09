@@ -1,0 +1,136 @@
+country_decisions = {
+
+	monarch_BUR_No.00a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = BUR
+		    has_ruler = "Philippe III"
+		    NOT = { is_year = 1477 }
+		    NOT = { has_global_flag = monarch_BUR_No.00a }
+		}
+		allow = {
+		    is_year = 1433
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BUR_No.00a
+			define_heir = { 
+		        name = "Charles"
+		        monarch_name = "Charles I le Téméraire"
+		        dynasty = "de Bourgogne"
+		        birth_date = 1433.11.10
+		        death_date = 1477.1.5
+		        claim = 95
+		        adm = 2
+		        dip = 1 # dip = 0
+		        mil = 4
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_BUR_No.01a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = BUR
+		    OR = { has_ruler = "Charles I le Téméraire" AND = { has_ruler = "Charles I" } }
+		    NOT = { is_year = 1482 }
+		    NOT = { has_global_flag = monarch_BUR_No.01a }
+		}
+		allow = {
+		    is_year = 1457
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BUR_No.01a
+			define_heir = { 
+		        name = "Marie"
+		        monarch_name = "Marie I"
+		        dynasty = "de Bourgogne"
+		        birth_date = 1457.2.13
+		        death_date = 1482.3.27
+		        claim = 95
+		        adm = 3
+		        dip = 4
+		        mil = 2
+		        female = yes
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_BUR_No.02a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = BUR
+		    has_ruler = "Marie I"
+		    NOT = { is_year = 1506 }
+		    NOT = { has_global_flag = monarch_BUR_No.02a }
+		}
+		allow = {
+		    is_year = 1478
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BUR_No.02a
+			define_heir = { 
+		        name = "Philippe"
+		        monarch_name = "Philippe IV" # Philip the Handsome
+		        dynasty = "von Habsburg"
+		        birth_date = 1478.7.22
+		        death_date = 1506.9.25
+		        claim = 95
+		        adm = 1 # adm = 0
+		        dip = 1 # dip = 0
+		        mil = 1 # mil = 0
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_BUR_No.03a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = BUR
+		    has_ruler = "Philippe IV"
+		    NOT = { is_year = 1558 }
+		    NOT = { has_global_flag = monarch_BUR_No.03a }
+		}
+		allow = {
+		    is_year = 1500
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BUR_No.03a
+			define_heir = { 
+		        name = "Charles"
+		        monarch_name = "Charles II" # Charles V, Holy Roman Emperor
+		        dynasty = "von Habsburg"
+		        birth_date = 1500.2.24
+		        death_date = 1558.9.21
+		        claim = 95
+		        adm = 4
+		        dip = 5
+		        mil = 5
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+}

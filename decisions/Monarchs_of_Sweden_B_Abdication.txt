@@ -1,0 +1,656 @@
+country_decisions = {
+
+	monarch_SWE_No.02b = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = SWE
+		    has_ruler = "Karl VIII"
+		    has_global_flag = monarch_SWE_No.01a
+		    NOT = { is_year = 1513 }
+		    NOT = { has_global_flag = monarch_SWE_No.02b }
+		}
+		allow = {
+		    is_year = 1470
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SWE_No.02b
+            if = {
+                limit = { 
+                    is_year = 1470
+                    NOT = { is_year = 1497 }
+                    NOT = { heir_age = 15 }                         
+                    }
+                    define_ruler = { 
+		                name = "(Regent) Sten Gustavsson"
+		                dynasty = "Sture"
+		                claim = 95
+		                adm = 1
+		                dip = 1
+		                mil = 1
+		                regency = yes
+		            }
+		            hidden_effect = {
+			            add_legitimacy = 100
+			            add_stability = -1
+			        }
+            }
+            if = {
+                limit = { 
+                    is_year = 1497
+                    NOT = { is_year = 1501 }
+                    NOT = { heir_age = 15 }                         
+                    }
+                    define_ruler = { 
+		                name = "(Regent) Arvid"
+		                dynasty = "Trolle"
+		                claim = 95
+		                adm = 1
+		                dip = 1
+		                mil = 1
+		                regency = yes
+		            }
+		            hidden_effect = {
+			            add_legitimacy = 100
+			            add_stability = -1
+			        }
+            }
+            if = {
+                limit = { 
+                    is_year = 1501
+                    NOT = { is_year = 1503 }
+                    NOT = { heir_age = 15 }                         
+                    }
+                    define_ruler = { 
+		                name = "(Regent) Sten Gustavsson"
+		                dynasty = "Sture"
+		                claim = 95
+		                adm = 1
+		                dip = 1
+		                mil = 1
+		                regency = yes
+		            }
+		            hidden_effect = {
+			            add_legitimacy = 100
+			            add_stability = -1
+			        }
+            }
+            if = {
+                limit = { 
+                    is_year = 1503
+                    NOT = { is_year = 1512 }
+                    NOT = { heir_age = 15 }                         
+                    }
+                    define_ruler = { 
+		                name = "(Regent) Svante Nilsson"
+		                dynasty = "Sture"
+		                claim = 95
+		                adm = 1
+		                dip = 1
+		                mil = 1
+		                regency = yes
+		            }
+		            hidden_effect = {
+			            add_legitimacy = 100
+			            add_stability = -1
+			        }
+            }
+            if = {
+                limit = { 
+                    is_year = 1512
+                    NOT = { is_year = 1520 }
+                    NOT = { heir_age = 15 }                         
+                    }
+                    define_ruler = { 
+		                name = "(Regent) Sten Svantesson"
+		                dynasty = "Sture"
+		                claim = 95
+		                adm = 1
+		                dip = 1
+		                mil = 1
+		                regency = yes
+		            }
+		            hidden_effect = {
+			            add_legitimacy = 100
+			            add_stability = -1
+			        }
+            }
+            if = {
+                limit = {
+                    heir_age = 15                  
+                    }
+                    kill_ruler = yes
+		            hidden_effect = {
+			            add_legitimacy = 100
+			            add_stability = -1
+			        }
+            }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_SWE_No.03b = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = SWE
+		    has_ruler = "Johan II"
+		    has_global_flag = monarch_SWE_No.03a
+		    NOT = { is_year = 1559 }
+		    NOT = { has_global_flag = monarch_SWE_No.03b }
+		}
+		allow = {
+		    is_year = 1513
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SWE_No.03b
+            if = {
+                limit = { 
+                    is_year = 1503
+                    NOT = { is_year = 1512 }
+                    NOT = { heir_age = 15 }                         
+                    }
+                    define_ruler = { 
+		                name = "(Regent) Svante Nilsson"
+		                dynasty = "Sture"
+		                claim = 95
+		                adm = 1
+		                dip = 1
+		                mil = 1
+		                regency = yes
+		            }
+		            hidden_effect = {
+			            add_legitimacy = 100
+			            add_stability = -1
+			        }
+            }
+            if = {
+                limit = { 
+                    is_year = 1512
+                    NOT = { is_year = 1520 }
+                    NOT = { heir_age = 15 }                         
+                    }
+                    define_ruler = { 
+		                name = "(Regent) Sten Svantesson"
+		                dynasty = "Sture"
+		                claim = 95
+		                adm = 1
+		                dip = 1
+		                mil = 1
+		                regency = yes
+		            }
+		            hidden_effect = {
+			            add_legitimacy = 100
+			            add_stability = -1
+			        }
+            }
+            if = {
+                limit = {
+                    heir_age = 15                   
+                    }
+                    kill_ruler = yes
+			        hidden_effect = { add_legitimacy = 100 }
+            }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_SWE_No.04b = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = SWE
+		    has_ruler = "Christian II"
+		    has_global_flag = monarch_SWE_No.04a
+		    NOT = { is_year = 1560 }
+		    NOT = { has_global_flag = monarch_SWE_No.04b }
+		}
+		allow = {
+		    is_year = 1523
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SWE_No.04b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_SWE_No.05b = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = SWE
+		    has_ruler = "Gustav I"
+		    has_global_flag = monarch_SWE_No.05a
+		    NOT = { is_year = 1577 }
+		    NOT = { has_global_flag = monarch_SWE_No.05b }
+		}
+		allow = {
+		    is_year = 1560
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SWE_No.05b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_SWE_No.06b = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = SWE
+		    has_ruler = "Erik XIV"
+		    has_global_flag = monarch_SWE_No.06a
+		    NOT = { is_year = 1592 }
+		    NOT = { has_global_flag = monarch_SWE_No.06b }
+		}
+		allow = {
+		    is_year = 1577
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SWE_No.06b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_SWE_No.07b = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = SWE
+		    has_ruler = "Johan III"
+		    has_global_flag = monarch_SWE_No.07a
+		    NOT = { has_global_flag = monarch_SWE_No.08a }
+		    NOT = { is_year = 1632 }
+		    NOT = { has_global_flag = monarch_SWE_No.07b }
+		}
+		allow = {
+		    is_year = 1592
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SWE_No.07b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_SWE_No.08b = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = SWE
+		    has_ruler = "Sigismund III"
+		    has_global_flag = monarch_SWE_No.08a
+		    NOT = { is_year = 1611 }
+		    NOT = { has_global_flag = monarch_SWE_No.08b }
+		}
+		allow = {
+		    is_year = 1604
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SWE_No.08b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_SWE_No.09b = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = SWE
+		    has_ruler = "Karl IX"
+		    has_global_flag = monarch_SWE_No.09a
+		    NOT = { is_year = 1632 }
+		    NOT = { has_global_flag = monarch_SWE_No.09b }
+		}
+		allow = {
+		    is_year = 1611
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SWE_No.09b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_SWE_No.10b = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = SWE
+		    has_ruler = "Gustav II Adolf"
+		    has_global_flag = monarch_SWE_No.10a
+		    NOT = { is_year = 1689 }
+		    NOT = { has_global_flag = monarch_SWE_No.10b }
+		}
+		allow = {
+		    is_year = 1632
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SWE_No.10b
+            if = {
+                limit = {
+                    is_year = 1626
+                    NOT = { is_year = 1654 } 
+                    NOT = { heir_age = 15 }                         
+                    }
+                    define_ruler = { 
+		                name = "(Regent) Axel" #Axel Oxenstierna
+		                dynasty = "Oxenstierna"
+		                claim = 95
+		                adm = 4
+		                dip = 4
+		                mil = 4
+		                regency = yes
+		            }
+		            hidden_effect = {
+			            add_legitimacy = 100
+			            add_stability = -1
+			        }
+            }
+            if = {
+                limit = {
+                    heir_age = 15                         
+                    }
+                    kill_ruler = yes
+			        hidden_effect = { add_legitimacy = 100 }
+            }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_SWE_No.11b = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = SWE
+		    OR = { has_ruler = "Kristina" AND = { has_ruler = "Kristina I" } }
+		    NOT = { is_year = 1660 }
+		    NOT = { has_global_flag = monarch_SWE_No.11b }
+		}
+		allow = {
+		    is_year = 1654
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SWE_No.11b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_SWE_No.12b = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = SWE
+		    has_ruler = "Karl X Gustav"
+		    has_global_flag = monarch_SWE_No.12a
+		    NOT = { is_year = 1697 }
+		    NOT = { has_global_flag = monarch_SWE_No.12b }
+		}
+		allow = {
+		    is_year = 1660
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SWE_No.12b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_SWE_No.13b = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = SWE
+		    has_ruler = "Karl XI"
+		    has_global_flag = monarch_SWE_No.13a
+		    NOT = { is_year = 1718 }
+		    NOT = { has_global_flag = monarch_SWE_No.13b }
+		}
+		allow = {
+		    is_year = 1697
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SWE_No.13b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_SWE_No.14b = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = SWE
+		    has_ruler = "Karl XII"
+		    has_global_flag = monarch_SWE_No.14a
+		    NOT = { is_year = 1741 }
+		    NOT = { has_global_flag = monarch_SWE_No.14b }
+		}
+		allow = {
+		    is_year = 1718
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SWE_No.14b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_SWE_No.15b = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = SWE
+		    OR = { has_ruler = "Ulrika Eleonora" AND = { has_ruler = "Ulrika Eleonora I" } }
+		    has_global_flag = monarch_SWE_No.15a
+		    NOT = { is_year = 1751 }
+		    NOT = { has_global_flag = monarch_SWE_No.15b }
+		}
+		allow = {
+		    is_year = 1720
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SWE_No.15b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_SWE_No.16b = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = SWE
+		    has_ruler = "Fredrik I"
+		    has_global_flag = monarch_SWE_No.16a
+		    NOT = { is_year = 1771 }
+		    NOT = { has_global_flag = monarch_SWE_No.16b }
+		}
+		allow = {
+		    is_year = 1751
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SWE_No.16b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_SWE_No.17b = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = SWE
+		    OR = { has_ruler = "Adolf Fredrik" AND = { has_ruler = "Adolf Fredrik I" } }
+		    has_global_flag = monarch_SWE_No.17a
+		    NOT = { is_year = 1792 }
+		    NOT = { has_global_flag = monarch_SWE_No.17b }
+		}
+		allow = {
+		    is_year = 1771
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SWE_No.17b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_SWE_No.18b = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = SWE
+		    has_ruler = "Gustav III"
+		    has_global_flag = monarch_SWE_No.18a
+		    NOT = { is_year = 1837 }
+		    NOT = { has_global_flag = monarch_SWE_No.18b }
+		}
+		allow = {
+		    is_year = 1792
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SWE_No.18b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_SWE_No.19b = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = SWE
+		    has_ruler = "Gustav IV Adolf"
+		    has_global_flag = monarch_SWE_No.19a
+		    NOT = { is_year = 1818 }
+		    NOT = { has_global_flag = monarch_SWE_No.19b }
+		}
+		allow = {
+		    is_year = 1809
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SWE_No.19b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_SWE_No.20b = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = SWE
+		    has_ruler = "Karl XIII"
+		    has_global_flag = monarch_SWE_No.19a
+		    NOT = { is_year = 1844 }
+		    NOT = { has_global_flag = monarch_SWE_No.20b }
+		}
+		allow = {
+		    is_year = 1818
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SWE_No.20b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+}

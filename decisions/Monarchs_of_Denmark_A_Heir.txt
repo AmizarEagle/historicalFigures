@@ -1,0 +1,498 @@
+country_decisions = {
+
+	monarch_DAN_No.00a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = DAN
+		    has_ruler = "Christopher III"
+		    NOT = { is_year = 1481 }
+		    NOT = { has_global_flag = monarch_DAN_No.00a }
+		}
+		allow = {
+		    is_year = 1426
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_DAN_No.00a
+			define_heir = { 
+		        name = "Christian"
+		        monarch_name = "Christian I"
+		        dynasty = "von Oldenburg"
+		        birth_date = 1426.2.1
+		        death_date = 1481.3.21
+		        claim = 95
+		        adm = 2
+		        dip = 1
+		        mil = 1
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_DAN_No.01a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = DAN
+		    has_ruler = "Christian I"
+		    NOT = { is_year = 1513 }
+		    NOT = { has_global_flag = monarch_DAN_No.01a }
+		}
+		allow = {
+		    is_year = 1455
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_DAN_No.01a
+			define_heir = { 
+		        name = "Hans"
+		        monarch_name = "Hans I"
+		        dynasty = "von Oldenburg"
+		        birth_date = 1455.2.2
+		        death_date = 1513.2.20
+		        claim = 95
+		        adm = 1
+		        dip = 3
+		        mil = 4
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_DAN_No.02a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = DAN
+		    has_ruler = "Hans I"
+		    NOT = { is_year = 1559 }
+		    NOT = { has_global_flag = monarch_DAN_No.02a }
+		}
+		allow = {
+		    is_year = 1481
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_DAN_No.02a
+			define_heir = { 
+		        name = "Christian"
+		        monarch_name = "Christian II"
+		        dynasty = "von Oldenburg"
+		        birth_date = 1481.7.1
+		        death_date = 1559.1.25
+		        claim = 95
+		        adm = 1
+		        dip = 1
+		        mil = 1 # mil = 0
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_DAN_No.03a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = DAN
+		    has_ruler = "Christian II"
+		    NOT = { is_year = 1533 }
+		    NOT = { has_global_flag = monarch_DAN_No.03a }
+		}
+		allow = {
+		    is_year = 1471
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_DAN_No.03a
+			define_heir = { 
+		        name = "Frederik"
+		        monarch_name = "Frederik I"
+		        dynasty = "von Oldenburg"
+		        birth_date = 1471.10.7
+		        death_date = 1533.4.10
+		        claim = 95
+		        adm = 3
+		        dip = 3
+		        mil = 4
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_DAN_No.04a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = DAN
+		    has_ruler = "Frederik I"
+		    NOT = { is_year = 1559 }
+		    NOT = { has_global_flag = monarch_DAN_No.04a }
+		}
+		allow = {
+		    is_year = 1503
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_DAN_No.04a
+			define_heir = { 
+		        name = "Christian"
+		        monarch_name = "Christian III"
+		        dynasty = "von Oldenburg"
+		        birth_date = 1503.8.12
+		        death_date = 1559.1.1
+		        claim = 95
+		        adm = 4
+		        dip = 4
+		        mil = 3
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_DAN_No.05a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = DAN
+		    has_ruler = "Christian III"
+		    NOT = { is_year = 1588 }
+		    NOT = { has_global_flag = monarch_DAN_No.05a }
+		}
+		allow = {
+		    is_year = 1534
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_DAN_No.05a
+			define_heir = { 
+		        name = "Frederik"
+		        monarch_name = "Frederik II"
+		        dynasty = "von Oldenburg"
+		        birth_date = 1534.7.1
+		        death_date = 1588.4.4
+		        claim = 95
+		        adm = 4
+		        dip = 3
+		        mil = 3
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_DAN_No.06a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = DAN
+		    has_ruler = "Frederik II"
+		    NOT = { is_year = 1648 }
+		    NOT = { has_global_flag = monarch_DAN_No.06a }
+		}
+		allow = {
+		    is_year = 1577
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_DAN_No.06a
+			define_heir = { 
+		        name = "Christian"
+		        monarch_name = "Christian IV"
+		        dynasty = "von Oldenburg"
+		        birth_date = 1577.4.12
+		        death_date = 1648.2.28
+		        claim = 95
+		        adm = 1
+		        dip = 4
+		        mil = 1 # mil = 0
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_DAN_No.07a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = DAN
+		    has_ruler = "Christian IV"
+		    NOT = { is_year = 1670 }
+		    NOT = { has_global_flag = monarch_DAN_No.07a }
+		}
+		allow = {
+		    is_year = 1609
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_DAN_No.07a
+			define_heir = { 
+		        name = "Frederik"
+		        monarch_name = "Frederik III"
+		        dynasty = "von Oldenburg"
+		        birth_date = 1609.3.18
+		        death_date = 1670.2.9
+		        claim = 95
+		        adm = 1 # adm = 0
+		        dip = 1 # dip = 0
+		        mil = 3
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_DAN_No.08a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = DAN
+		    has_ruler = "Frederik III"
+		    NOT = { is_year = 1699 }
+		    NOT = { has_global_flag = monarch_DAN_No.08a }
+		}
+		allow = {
+		    is_year = 1646
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_DAN_No.08a
+			define_heir = { 
+		        name = "Christian"
+		        monarch_name = "Christian V"
+		        dynasty = "von Oldenburg"
+		        birth_date = 1646.4.15
+		        death_date = 1699.8.25
+		        claim = 95
+		        adm = 1
+		        dip = 3
+		        mil = 3
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_DAN_No.09a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = DAN
+		    has_ruler = "Christian V"
+		    NOT = { is_year = 1730 }
+		    NOT = { has_global_flag = monarch_DAN_No.09a }
+		}
+		allow = {
+		    is_year = 1671
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_DAN_No.09a
+			define_heir = { 
+		        name = "Frederik"
+		        monarch_name = "Frederik IV"
+		        dynasty = "von Oldenburg"
+		        birth_date = 1671.10.11
+		        death_date = 1730.10.12
+		        claim = 95
+		        adm = 6
+		        dip = 2
+		        mil = 2
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_DAN_No.10a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = DAN
+		    has_ruler = "Frederik IV"
+		    NOT = { is_year = 1746 }
+		    NOT = { has_global_flag = monarch_DAN_No.10a }
+		}
+		allow = {
+		    is_year = 1699
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_DAN_No.10a
+			define_heir = { 
+		        name = "Christian"
+		        monarch_name = "Christian VI"
+		        dynasty = "von Oldenburg"
+		        birth_date = 1699.11.30
+		        death_date = 1746.8.6
+		        claim = 95
+		        adm = 3
+		        dip = 3
+		        mil = 1
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_DAN_No.11a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = DAN
+		    has_ruler = "Christian VI"
+		    NOT = { is_year = 1766 }
+		    NOT = { has_global_flag = monarch_DAN_No.11a }
+		}
+		allow = {
+		    is_year = 1723
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_DAN_No.11a
+			define_heir = { 
+		        name = "Frederik"
+		        monarch_name = "Frederik V"
+		        dynasty = "von Oldenburg"
+		        birth_date = 1723.3.31
+		        death_date = 1766.1.14
+		        claim = 95
+		        adm = 1
+		        dip = 3
+		        mil = 3
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_DAN_No.12a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = DAN
+		    has_ruler = "Frederik V"
+		    NOT = { is_year = 1808 }
+		    NOT = { has_global_flag = monarch_DAN_No.12a }
+		}
+		allow = {
+		    is_year = 1749
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_DAN_No.12a
+			define_heir = { 
+		        name = "Christian"
+		        monarch_name = "Christian VII"
+		        dynasty = "von Oldenburg"
+		        birth_date = 1749.1.29
+		        death_date = 1808.3.13
+		        claim = 95
+		        adm = 1 # adm = 0
+		        dip = 1 # dip = 0
+		        mil = 1 # mil = 0
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_DAN_No.13a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = DAN
+		    has_ruler = "Christian VII"
+		    NOT = { is_year = 1839 }
+		    NOT = { has_global_flag = monarch_DAN_No.13a }
+		}
+		allow = {
+		    is_year = 1768
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_DAN_No.13a
+			define_heir = { 
+		        name = "Frederik"
+		        monarch_name = "Frederik VI"
+		        dynasty = "von Oldenburg"
+		        birth_date = 1768.1.28
+		        death_date = 1839.12.3
+		        claim = 95
+		        adm = 1 # adm = 0
+		        dip = 1 # dip = 0
+		        mil = 1 # mil = 0
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_DAN_No.14a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = DAN
+		    has_ruler = "Frederik VI"
+		    NOT = { is_year = 1848 }
+		    NOT = { has_global_flag = monarch_DAN_No.14a }
+		}
+		allow = {
+		    is_year = 1786
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_DAN_No.14a
+			define_heir = { 
+		        name = "Christian"
+		        monarch_name = "Christian VIII"
+		        dynasty = "von Oldenburg"
+		        birth_date = 1786.9.18
+		        death_date = 1848.1.20
+		        claim = 95
+		        adm = 3
+		        dip = 4
+		        mil = 1
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+}

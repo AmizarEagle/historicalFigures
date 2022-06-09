@@ -1,0 +1,36 @@
+country_decisions = {
+
+	monarch_PRO_No.00a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = PRO
+		    has_ruler = "René I"
+		    NOT = { is_year = 1481 }
+		    NOT = { has_global_flag = monarch_PRO_No.00a }
+		}
+		allow = {
+		    is_year = 1436
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PRO_No.00a
+			define_heir = {
+		        name = "Charles"
+		        monarch_name = "Charles III"
+		        dynasty = "de Valois"
+		        birth_date = 1436.1.1
+		        death_date = 1481.1.1
+		        claim = 95
+		        adm = 1 # adm = 0
+		        dip = 2
+		        mil = 1
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+}

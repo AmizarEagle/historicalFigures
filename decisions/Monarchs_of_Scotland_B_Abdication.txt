@@ -1,0 +1,476 @@
+country_decisions = {
+
+	monarch_SCO_No.00b = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = SCO
+		    has_ruler = "James II"
+		    has_global_flag = monarch_SCO_No.00a
+		    NOT = { is_year = 1488 }
+		    NOT = { has_global_flag = monarch_SCO_No.00b }
+		}
+		allow = {
+		    is_year = 1460
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SCO_No.00b
+            if = {
+                limit = {
+                    is_year = 1434
+                    NOT = { is_year = 1463 }
+                    NOT = { heir_age = 15 }                                          
+                    }
+                    define_ruler = { 
+		                name = "(Regent) Mary"
+		                dynasty = "van Egmond"
+		                claim = 95
+		                adm = 1
+		                dip = 1
+		                mil = 1
+		                female = yes
+		                regency = yes
+		            }
+		            hidden_effect = {
+			            add_legitimacy = 100
+			            add_stability = -1
+			        }
+            }
+            if = {
+                limit = {
+                    is_year = 1463
+                    NOT = { is_year = 1466 } 
+                    NOT = { heir_age = 15 }                         
+                    }
+                    define_ruler = { 
+		                name = "(Regent) James"
+		                dynasty = "Kennedy"
+		                claim = 95
+		                adm = 1
+		                dip = 1
+		                mil = 1
+		                regency = yes
+		            }
+		            hidden_effect = {
+			            add_legitimacy = 100
+			            add_stability = -1
+			        }
+            }
+            if = {
+                limit = {
+                    is_year = 1466
+                    NOT = { is_year = 1469 } 
+                    NOT = { heir_age = 15 }                         
+                    }
+                    define_ruler = { 
+		                name = "(Regent) Robert"
+		                dynasty = "Boyd"
+		                claim = 95
+		                adm = 1
+		                dip = 1
+		                mil = 1
+		                regency = yes
+		            }
+		            hidden_effect = {
+			            add_legitimacy = 100
+			            add_stability = -1
+			        }
+            }
+            if = {
+                limit = {
+                    heir_age = 15                        
+                    }
+                    kill_ruler = yes
+			        hidden_effect = { add_legitimacy = 100 }
+            }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_SCO_No.01b = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = SCO
+		    has_ruler = "James III"
+		    has_global_flag = monarch_SCO_No.01a
+		    NOT = { is_year = 1513 } 
+		    NOT = { has_global_flag = monarch_SCO_No.01b }
+		}
+		allow = {
+		    is_year = 1488
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SCO_No.01b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_SCO_No.02b = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = SCO
+		    has_ruler = "James IV"
+		    has_global_flag = monarch_SCO_No.02a
+		    NOT = { is_year = 1542 }
+		    NOT = { has_global_flag = monarch_SCO_No.02b }
+		}
+		allow = {
+		    is_year = 1513
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SCO_No.02b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_SCO_No.03b = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = SCO
+		    has_ruler = "James V"
+		    has_global_flag = monarch_SCO_No.03a
+		    NOT = { is_year = 1587 }
+		    NOT = { has_global_flag = monarch_SCO_No.03b }
+		}
+		allow = {
+		    is_year = 1542
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SCO_No.03b
+            if = {
+                limit = {
+                    is_year = 1542
+                    NOT = { is_year = 1545 }
+                    NOT = { heir_age = 15 }                     
+                    }
+                    define_ruler = { 
+		                name = "(Regent) James" #James Hamilton, 2nd Earl of Arran
+		                dynasty = "Hamilton"
+		                claim = 95
+		                adm = 1
+		                dip = 1
+		                mil = 1
+		                regency = yes
+		            }
+		            hidden_effect = {
+			            add_legitimacy = 100
+			            add_stability = -1
+			        }
+            }
+            if = {
+                limit = {
+                    is_year = 1545
+                    NOT = { is_year = 1560 } 
+                    NOT = { heir_age = 15 }                         
+                    }
+                    define_ruler = { 
+		                name = "(Regent) Mary"
+		                dynasty = "de Guise"
+		                claim = 95
+		                adm = 1
+		                dip = 1
+		                mil = 1
+		                female = yes
+		                regency = yes
+		            }
+		            hidden_effect = {
+			            add_legitimacy = 100
+			            add_stability = -1
+			        }
+            }
+            if = {
+                limit = {
+                    heir_age = 15                       
+                    }
+                    kill_ruler = yes
+			        hidden_effect = { add_legitimacy = 100 }
+            }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_SCO_No.04b = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = SCO
+		    has_ruler = "Mary I"
+		    has_global_flag = monarch_SCO_No.04a
+		    NOT = { is_year = 1625 }
+		    NOT = { has_global_flag = monarch_SCO_No.04b }
+		}
+		allow = {
+		    is_year = 1567
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SCO_No.04b
+            if = {
+                limit = {
+                    is_year = 1531
+                    NOT = { is_year = 1570 } 
+                    NOT = { heir_age = 15 }                         
+                    }
+                    define_ruler = { 
+		                name = "(Regent) James"
+		                dynasty = "Stuart"
+		                claim = 95
+		                adm = 1
+		                dip = 1
+		                mil = 1
+		                regency = yes
+		            }
+		            hidden_effect = {
+			            add_legitimacy = 100
+			            add_stability = -1
+			        }
+            }
+            if = {
+                limit = {
+                    is_year = 1570
+                    NOT = { is_year = 1571 } 
+                    NOT = { heir_age = 15 }                        
+                    }
+                    define_ruler = { 
+		                name = "(Regent) Matthew"
+		                dynasty = "Stuart"
+		                claim = 95
+		                adm = 1
+		                dip = 1
+		                mil = 1
+		                regency = yes
+		            }
+		            hidden_effect = {
+			            add_legitimacy = 100
+			            add_stability = -1
+			        }
+            }
+            if = {
+                limit = {
+                    is_year = 1571
+                    NOT = { is_year = 1572 }  
+                    NOT = { heir_age = 15 }
+                    }
+                    define_ruler = { 
+		                name = "(Regent) John"
+		                dynasty = "Erskine"
+		                claim = 95
+		                adm = 1
+		                dip = 1
+		                mil = 1
+		                regency = yes
+		            }
+		            hidden_effect = {
+			            add_legitimacy = 100
+			            add_stability = -1
+			        }
+            }
+            if = {
+                limit = {
+                    is_year = 1572
+                    NOT = { is_year = 1581 } 
+                    NOT = { heir_age = 15 }                        
+                    }
+                    define_ruler = { 
+		                name = "(Regent) James"
+		                dynasty = "Douglas"
+		                claim = 95
+		                adm = 1
+		                dip = 1
+		                mil = 1
+		                regency = yes
+		            }
+		            hidden_effect = {
+			            add_legitimacy = 100
+			            add_stability = -1
+			        }
+            }
+            if = {
+                limit = {
+                    is_year = 1581
+                    NOT = { is_year = 1625 }                         
+                    }
+                    kill_ruler = yes
+			        hidden_effect = { add_legitimacy = 100 }
+            }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_SCO_No.05b = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = SCO
+		    has_ruler = "James VI"
+		    has_global_flag = monarch_SCO_No.05a
+		    NOT = { is_year = 1649 }
+		    NOT = { has_global_flag = monarch_SCO_No.05b }
+		}
+		allow = {
+		    is_year = 1625
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SCO_No.05b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_SCO_No.06b = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = SCO
+		    has_ruler = "Charles I"
+		    has_global_flag = monarch_SCO_No.06a
+		    NOT = { is_year = 1685 }
+		    NOT = { has_global_flag = monarch_SCO_No.06b }
+		}
+		allow = {
+		    is_year = 1649
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SCO_No.06b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_SCO_No.07b = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = SCO
+		    has_ruler = "Charles II"
+		    has_global_flag = monarch_SCO_No.07a
+		    NOT = { is_year = 1701 }
+		    NOT = { has_global_flag = monarch_SCO_No.07b }
+		}
+		allow = {
+		    is_year = 1685
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SCO_No.07b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_SCO_No.08b = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = SCO
+		    has_ruler = "James VII"
+		    has_global_flag = monarch_SCO_No.08a
+		    NOT = { is_year = 1694 }
+		    NOT = { has_global_flag = monarch_SCO_No.08b }
+		}
+		allow = {
+		    is_year = 1689
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SCO_No.08b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_SCO_No.09b = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = SCO
+		    has_ruler = "Mary II"
+		    has_global_flag = monarch_SCO_No.09a
+		    NOT = { is_year = 1702 }
+		    NOT = { has_global_flag = monarch_SCO_No.09b }
+		}
+		allow = {
+		    is_year = 1694
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SCO_No.09b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_SCO_No.10b = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = SCO
+		    has_ruler = "William II"
+		    has_global_flag = monarch_SCO_No.10a
+		    NOT = { is_year = 1714 }
+		    NOT = { has_global_flag = monarch_SCO_No.10b }
+		}
+		allow = {
+		    is_year = 1702
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SCO_No.10b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+}

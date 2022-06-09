@@ -1,0 +1,203 @@
+country_decisions = {
+
+	monarch_BRI_No.00a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = BRI
+		    has_ruler = "François I"
+		    NOT = { is_year = 1457 }
+		    NOT = { has_global_flag = monarch_BRI_No.00a }
+		}
+		allow = {
+		    is_year = 1418
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BRI_No.00a
+			define_heir = { 
+		        name = "Pierre"
+		        monarch_name = "Pierre II"
+		        dynasty = "de Dreux"
+		        birth_date = 1418.1.1
+		        death_date = 1457.9.23
+		        claim = 95
+		        adm = 2
+		        dip = 2
+		        mil = 3
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_BRI_No.01a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = BRI
+		    has_ruler = "Pierre II"
+		    NOT = { is_year = 1458 }
+		    NOT = { has_global_flag = monarch_BRI_No.01a }
+		}
+		allow = {
+		    is_year = 1393
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BRI_No.01a
+			define_heir = { 
+		        name = "Artur"
+		        monarch_name = "Artur III"
+		        dynasty = "de Dreux"
+		        birth_date = 1393.8.24
+		        death_date = 1458.12.26
+		        claim = 95
+		        adm = 3
+		        dip = 2
+		        mil = 4
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_BRI_No.02a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = BRI
+		    has_ruler = "Artur III"
+		    NOT = { is_year = 1488 }
+		    NOT = { has_global_flag = monarch_BRI_No.02a }
+		}
+		allow = {
+		    is_year = 1433
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BRI_No.02a
+			define_heir = { 
+		        name = "François"
+		        monarch_name = "François II"
+		        dynasty = "de Dreux"
+		        birth_date = 1433.6.23
+		        death_date = 1488.9.9
+		        claim = 95
+		        adm = 3
+		        dip = 3
+		        mil = 1
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_BRI_No.03a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = BRI
+		    has_ruler = "François II"
+		    NOT = { is_year = 1514 }
+		    NOT = { has_global_flag = monarch_BRI_No.03a }
+		}
+		allow = {
+		    is_year = 1477
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BRI_No.03a
+			define_heir = { 
+		        name = "Anne"
+		        monarch_name = "Anne I"
+		        dynasty = "de Dreux"
+		        birth_date = 1477.1.25
+		        death_date = 1514.1.9
+		        claim = 95
+		        adm = 5
+		        dip = 4
+		        mil = 1
+		        female = yes
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_BRI_No.04a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = BRI
+		    has_ruler = "Anne I"
+		    NOT = { is_year = 1525 }
+		    NOT = { has_global_flag = monarch_BRI_No.04a }
+		}
+		allow = {
+		    is_year = 1499
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BRI_No.04a
+			define_heir = { 
+		        name = "Claude"
+		        monarch_name = "Claude I"
+		        dynasty = "de Valois"
+		        birth_date = 1499.10.14
+		        death_date = 1525.7.20
+		        claim = 95
+		        adm = 2
+		        dip = 2
+		        mil = 2
+		        female = yes
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_BRI_No.05a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = BRI
+		    has_ruler = "Claude I"
+		    NOT = { is_year = 1536 }
+		    NOT = { has_global_flag = monarch_BRI_No.05a }
+		}
+		allow = {
+		    is_year = 1518
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_BRI_No.05a
+			define_heir = { 
+		        name = "François"
+		        monarch_name = "François III"
+		        dynasty = "de Valois"
+		        birth_date = 1518.2.28
+		        death_date = 1536.8.10
+		        claim = 95
+		        adm = 3
+		        dip = 2
+		        mil = 1
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+}

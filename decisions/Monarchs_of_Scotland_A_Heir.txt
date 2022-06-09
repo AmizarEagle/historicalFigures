@@ -1,0 +1,369 @@
+country_decisions = {
+
+	monarch_SCO_No.00a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = SCO
+		    has_ruler = "James II"
+		    NOT = { is_year = 1488 }
+		    NOT = { has_global_flag = monarch_SCO_No.00a }
+		}
+		allow = {
+		    is_year = 1451
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SCO_No.00a
+			define_heir = { 
+		        name = "James"
+		        monarch_name = "James III"
+		        dynasty = "Stuart"
+		        birth_date = 1451.7.10
+		        death_date = 1488.6.11
+		        claim = 95
+		        adm = 1 # adm = 0
+		        dip = 2
+		        mil = 2
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_SCO_No.01a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = SCO
+		    has_ruler = "James III"
+		    NOT = { is_year = 1513 }
+		    NOT = { has_global_flag = monarch_SCO_No.01a }
+		}
+		allow = {
+		    is_year = 1473
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SCO_No.01a
+			define_heir = { 
+		        name = "James"
+		        monarch_name = "James IV"
+		        dynasty = "Stuart"
+		        birth_date = 1473.3.17
+		        death_date = 1513.9.9
+		        claim = 95
+		        adm = 3
+		        dip = 4
+		        mil = 1
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_SCO_No.02a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = SCO
+		    has_ruler = "James IV"
+		    NOT = { is_year = 1542 }
+		    NOT = { has_global_flag = monarch_SCO_No.02a }
+		}
+		allow = {
+		    is_year = 1512
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SCO_No.02a
+			define_heir = { 
+		        name = "James"
+		        monarch_name = "James V"
+		        dynasty = "Stuart"
+		        birth_date = 1512.4.10
+		        death_date = 1542.12.14
+		        claim = 95
+		        adm = 3
+		        dip = 1
+		        mil = 2
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_SCO_No.03a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = SCO
+		    has_ruler = "James V"
+		    NOT = { is_year = 1587 }
+		    NOT = { has_global_flag = monarch_SCO_No.03a }
+		}
+		allow = {
+		    is_year = 1542
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SCO_No.03a
+			define_heir = { 
+		        name = "Mary"
+		        monarch_name = "Mary I"
+		        dynasty = "Stuart"
+		        birth_date = 1542.12.8
+		        death_date = 1587.2.8
+		        claim = 95
+		        adm = 2
+		        dip = 3
+		        mil = 3
+		        female = yes
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_SCO_No.04a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = SCO
+		    has_ruler = "Mary I"
+		    NOT = { is_year = 1625 }
+		    NOT = { has_global_flag = monarch_SCO_No.04a }
+		}
+		allow = {
+		    is_year = 1566
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SCO_No.04a
+			define_heir = { 
+		        name = "Charles James"
+		        monarch_name = "James VI"
+		        dynasty = "Stuart"
+		        birth_date = 1566.6.19
+		        death_date = 1625.3.27
+		        claim = 95
+		        adm = 2
+		        dip = 3
+		        mil = 1 # mil = 4
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_SCO_No.05a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = SCO
+		    has_ruler = "James VI"
+		    NOT = { is_year = 1649 }
+		    NOT = { has_global_flag = monarch_SCO_No.05a }
+		}
+		allow = {
+		    is_year = 1600
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SCO_No.05a
+			define_heir = { 
+		        name = "Charles"
+		        monarch_name = "Charles I"
+		        dynasty = "Stuart"
+		        birth_date = 1600.11.19
+		        death_date = 1649.1.30
+		        claim = 95
+		        adm = 2
+		        dip = 3 # dip = 1
+		        mil = 2 # mil = 4
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_SCO_No.06a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = SCO
+		    has_ruler = "Charles I"
+		    NOT = { is_year = 1685 }
+		    NOT = { has_global_flag = monarch_SCO_No.06a }
+		}
+		allow = {
+		    is_year = 1630
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SCO_No.06a
+			define_heir = { 
+		        name = "Charles"
+		        monarch_name = "Charles II"
+		        dynasty = "Stuart"
+		        birth_date = 1630.5.29
+		        death_date = 1685.2.6
+		        claim = 95
+		        adm = 3 # adm = 4
+		        dip = 2 # dip = 3
+		        mil = 1 # mil = 5
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_SCO_No.07a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = SCO
+		    has_ruler = "Charles II"
+		    NOT = { is_year = 1701 }
+		    NOT = { has_global_flag = monarch_SCO_No.07a }
+		}
+		allow = {
+		    is_year = 1633
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SCO_No.07a
+			define_heir = { 
+		        name = "James"
+		        monarch_name = "James VII"
+		        dynasty = "Stuart"
+		        birth_date = 1633.10.14
+		        death_date = 1701.9.16
+		        claim = 95
+		        adm = 2 # adm = 1
+		        dip = 2 # dip = 3
+		        mil = 3 # mil = 3
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_SCO_No.08a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = SCO
+		    has_ruler = "James VII"
+		    NOT = { is_year = 1694 }
+		    NOT = { has_global_flag = monarch_SCO_No.08a }
+		}
+		allow = {
+		    is_year = 1662
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SCO_No.08a
+			define_heir = { 
+		        name = "Mary"
+		        monarch_name = "Mary II"
+		        dynasty = "Stuart"
+		        birth_date = 1662.4.30
+		        death_date = 1694.12.28
+		        claim = 95
+		        adm = 2
+		        dip = 4
+		        mil = 3
+		        female = yes
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_SCO_No.09a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = SCO
+		    has_ruler = "Mary II"
+		    NOT = { is_year = 1702 }
+		    NOT = { has_global_flag = monarch_SCO_No.09a }
+		}
+		allow = {
+		    is_year = 1662
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SCO_No.09a
+			define_heir = { 
+		        name = "William"
+		        monarch_name = "William II"
+		        dynasty = "van Oranje"
+		        birth_date = 1650.11.14
+		        death_date = 1702.3.8
+		        claim = 95
+		        adm = 3
+		        dip = 5
+		        mil = 5
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_SCO_No.10a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = SCO
+		    has_ruler = "William II"
+		    NOT = { is_year = 1714 }
+		    NOT = { has_global_flag = monarch_SCO_No.10a }
+		}
+		allow = {
+		    is_year = 1665
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SCO_No.10a
+			define_heir = { 
+		        name = "Anne"
+		        monarch_name = "Anne I"
+		        dynasty = "Stuart"
+		        birth_date = 1665.2.6
+		        death_date = 1714.8.1
+		        claim = 95
+		        adm = 3
+		        dip = 5
+		        mil = 4
+		        female = yes
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+}

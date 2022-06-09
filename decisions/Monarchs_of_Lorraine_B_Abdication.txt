@@ -1,0 +1,380 @@
+country_decisions = {
+
+	monarch_LOR_No.01b = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = LOR
+		    has_ruler = "Jean II"
+		    has_global_flag = monarch_LOR_No.01a
+		    NOT = { is_year = 1473}
+		    NOT = { has_global_flag = monarch_LOR_No.01b }
+		}
+		allow = {
+		    is_year = 1470
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_LOR_No.01b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_LOR_No.02b = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = LOR
+		    has_ruler = "Nicolas I"
+		    has_global_flag = monarch_LOR_No.02a
+		    NOT = { is_year = 1508 }
+		    NOT = { has_global_flag = monarch_LOR_No.02b }
+		}
+		allow = {
+		    is_year = 1473
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_LOR_No.02b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_LOR_No.03b = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = LOR
+		    has_ruler = "René II"
+		    has_global_flag = monarch_LOR_No.03a
+		    NOT = { is_year = 1544 }
+		    NOT = { has_global_flag = monarch_LOR_No.03b }
+		}
+		allow = {
+		    is_year = 1508
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_LOR_No.03b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_LOR_No.04b = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = LOR
+		    has_ruler = "Antoine I"
+		    has_global_flag = monarch_LOR_No.04a
+		    NOT = { is_year = 1545 }
+		    NOT = { has_global_flag = monarch_LOR_No.04b }
+		}
+		allow = {
+		    is_year = 1544
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_LOR_No.04b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_LOR_No.05b = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = LOR
+		    has_ruler = "François I"
+		    has_global_flag = monarch_LOR_No.05a
+		    NOT = { is_year = 1608 }
+		    NOT = { has_global_flag = monarch_LOR_No.05b }
+		}
+		allow = {
+		    is_year = 1545
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_LOR_No.05b
+            if = {
+                limit = {
+                    is_year = 1521
+                    NOT = { is_year = 1590 } 
+                    NOT = { heir_age = 15 }                         
+                    }
+                    define_ruler = { 
+		                name = "(Regent) Christine" # Christine de Danemark or Christine von Oldenburg
+		                dynasty = "de Danemark"
+		                claim = 95
+		                adm = 1
+		                dip = 1
+		                mil = 1
+		                female = yes
+		                regency = yes
+		            }
+		            hidden_effect = {
+			            add_legitimacy = 100
+			            add_stability = -1
+			        }
+            }
+            if = {
+                limit = {
+                    heir_age = 15                         
+                    }
+                    kill_ruler = yes
+			        hidden_effect = { add_legitimacy = 100 }
+            }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_LOR_No.06b = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = LOR
+		    has_ruler = "Charles III"
+		    has_global_flag = monarch_LOR_No.06a
+		    NOT = { is_year = 1624 }
+		    NOT = { has_global_flag = monarch_LOR_No.06b }
+		}
+		allow = {
+		    is_year = 1608
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_LOR_No.06b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_LOR_No.07b = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = LOR
+		    has_ruler = "Henri I"
+		    has_global_flag = monarch_LOR_No.07a
+		    NOT = { is_year = 1632 }
+		    NOT = { has_global_flag = monarch_LOR_No.07b }
+		}
+		allow = {
+		    is_year = 1624
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_LOR_No.07b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_LOR_No.08b = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = LOR
+		    has_ruler = "François II"
+		    has_global_flag = monarch_LOR_No.08a
+		    NOT = { is_year = 1674 }
+		    NOT = { has_global_flag = monarch_LOR_No.08b }
+		}
+		allow = {
+		    is_year = 1624
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_LOR_No.08b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_LOR_No.09b = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = LOR
+		    has_ruler = "Charles IV"
+		    has_global_flag = monarch_LOR_No.09a
+		    NOT = { is_year = 1670 }
+		    NOT = { has_global_flag = monarch_LOR_No.09b }
+		}
+		allow = {
+		    is_year = 1634
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_LOR_No.09b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_LOR_No.10b = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = LOR
+		    has_ruler = "Nicolas II"
+		    has_global_flag = monarch_LOR_No.10a
+		    NOT = { is_year = 1674 }
+		    NOT = { has_global_flag = monarch_LOR_No.10b }
+		}
+		allow = {
+		    is_year = 1641
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_LOR_No.10b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_LOR_No.11b = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = LOR
+		    has_ruler = "Charles IV"
+		    has_global_flag = monarch_LOR_No.11a
+		    has_global_flag = monarch_LOR_No.09b
+		    NOT = { is_year = 1690 }
+		    NOT = { has_global_flag = monarch_LOR_No.11b }
+		}
+		allow = {
+		    is_year = 1674 # 1675
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_LOR_No.11b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_LOR_No.12b = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = LOR
+		    has_ruler = "Charles V Léopold"
+		    has_global_flag = monarch_LOR_No.12a
+		    NOT = { is_year = 1729 }
+		    NOT = { has_global_flag = monarch_LOR_No.12b }
+		}
+		allow = {
+		    is_year = 1690
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_LOR_No.12b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_LOR_No.13b = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = LOR
+		    has_ruler = "Léopold I Joseph"
+		    has_global_flag = monarch_LOR_No.13a
+		    NOT = { is_year = 1737 }
+		    NOT = { has_global_flag = monarch_LOR_No.13b }
+		}
+		allow = {
+		    is_year = 1729
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_LOR_No.13b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_LOR_No.14b = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = LOR
+		    has_ruler = "François III Éttiene"
+		    has_global_flag = monarch_LOR_No.14a
+		    NOT = { is_year = 1766 }
+		    NOT = { has_global_flag = monarch_LOR_No.14b }
+		}
+		allow = {
+		    is_year = 1736
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_LOR_No.14b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+}

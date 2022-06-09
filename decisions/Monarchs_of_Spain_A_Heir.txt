@@ -1,0 +1,569 @@
+country_decisions = {
+
+	monarch_SPA_No.00a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    OR = { tag = CAS AND = { tag = SPA } }
+		    has_ruler = "Juan II"
+		    NOT = { is_year = 1474 }
+		    NOT = { has_global_flag = monarch_SPA_No.00a }
+		}
+		allow = {
+		    is_year = 1425
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SPA_No.00a
+			define_heir = { 
+		        name = "Enrique"
+		        monarch_name = "Enrique IV"
+		        dynasty = "de Trastámara"
+		        birth_date = 1425.1.5
+		        death_date = 1474.12.11
+		        claim = 95
+		        adm = 1 # adm = 0
+		        dip = 1 # dip = 0
+		        mil = 1 # mil = 0
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_SPA_No.01a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    OR = { tag = CAS AND = { tag = SPA } }
+		    has_ruler = "Enrique IV"
+		    NOT = { is_year = 1504 }
+		    NOT = { has_global_flag = monarch_SPA_No.01a }
+		    NOT = { has_global_flag = wih_isabella_castile_flag } # Women in History
+		}
+		allow = {
+		    is_year = 1451
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SPA_No.01a
+			set_global_flag = wih_isabella_castile_flag # Women in History
+			define_heir = { 
+		        name = "Isabel"
+		        monarch_name = "Isabel I"
+		        dynasty = "de Trastámara"
+		        birth_date = 1451.4.22
+		        death_date = 1504.11.26
+		        claim = 95
+		        adm = 5
+		        dip = 6
+		        mil = 3
+		        female = yes
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_SPA_No.02a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    OR = { tag = CAS AND = { tag = SPA } }
+		    has_ruler = "Isabel I"
+		    NOT = { is_year = 1555 }
+		    NOT = { has_global_flag = monarch_SPA_No.02a }
+		}
+		allow = {
+		    is_year = 1479
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SPA_No.02a
+			define_heir = { 
+		        name = "Juana"
+		        monarch_name = "Juana I"
+		        dynasty = "de Trastámara"
+		        birth_date = 1479.11.6
+		        death_date = 1555.4.12
+		        claim = 95
+		        adm = 1 # adm = 0
+		        dip = 1 # dip = 0
+		        mil = 1 # mil = 0
+		        female = yes
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_SPA_No.03a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    OR = { tag = CAS AND = { tag = SPA } }
+		    has_ruler = "Juana I"
+		    NOT = { is_year = 1507 } # 1506
+		    NOT = { has_global_flag = monarch_SPA_No.03a }
+		}
+		allow = {
+		    is_year = 1478
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SPA_No.03a
+			define_heir = { 
+                name = "Felipe"
+		        monarch_name = "Felipe I"
+		        dynasty = "von Habsburg"
+		        birth_date = 1478.7.22
+		        death_date = 1506.9.25
+		        claim = 80
+		        adm = 1 # adm = 0
+		        dip = 1 # dip = 0
+		        mil = 1 # mil = 0
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_SPA_No.04a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    OR = { tag = CAS AND = { tag = SPA } }
+		    OR = { has_ruler = "Felipe I" }
+		    NOT = { is_year = 1516 }
+		    NOT = { has_global_flag = monarch_SPA_No.04a }
+		}
+		allow = {
+		    is_year = 1452
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SPA_No.04a
+			define_heir = { 
+                name = "Fernando"
+		        monarch_name = "Fernando V"
+		        dynasty = "de Trastámara"
+		        birth_date = 1452.3.10
+		        death_date = 1516.6.23
+		        claim = 80
+		        adm = 4
+		        dip = 6
+		        mil = 5
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_SPA_No.05a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    OR = { tag = CAS AND = { tag = SPA } }
+		    has_ruler = "Fernando V"
+		    NOT = { is_year = 1558 }
+		    NOT = { has_global_flag = monarch_SPA_No.05a }
+		}
+		allow = {
+		    is_year = 1500
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SPA_No.05a
+			define_heir = { 
+                name = "Carlos"
+		        monarch_name = "Carlos I"
+		        dynasty = "von Habsburg"
+                birth_date = 1500.2.24
+		        death_date = 1558.9.21
+		        claim = 95
+		        adm = 4
+		        dip = 5
+		        mil = 5
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_SPA_No.06a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    OR = { tag = CAS AND = { tag = SPA } }
+		    has_ruler = "Carlos I"
+		    NOT = { is_year = 1598 }
+		    NOT = { has_global_flag = monarch_SPA_No.06a }
+		}
+		allow = {
+		    is_year = 1527
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SPA_No.06a
+			define_heir = { 
+		        name = "Felipe"
+		        monarch_name = "Felipe II"
+		        dynasty = "von Habsburg"
+		        birth_date = 1527.5.21
+		        death_date = 1598.9.13
+		        claim = 95
+		        adm = 4
+		        dip = 3
+		        mil = 4
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_SPA_No.07a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    OR = { tag = CAS AND = { tag = SPA } }
+		    has_ruler = "Felipe II"
+		    NOT = { is_year = 1621 }
+		    NOT = { has_global_flag = monarch_SPA_No.07a }
+		}
+		allow = {
+		    is_year = 1578
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SPA_No.07a
+			define_heir = {
+		        name = "Felipe"
+		        monarch_name = "Felipe III"
+		        dynasty = "von Habsburg"
+		        birth_date = 1578.4.14
+		        death_date = 1621.3.31
+		        claim = 95
+		        adm = 1
+		        dip = 1 # dip = 0
+		        mil = 1
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_SPA_No.08a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    OR = { tag = CAS AND = { tag = SPA } }
+		    has_ruler = "Felipe III"
+		    NOT = { is_year = 1665 }
+		    NOT = { has_global_flag = monarch_SPA_No.08a }
+		}
+		allow = {
+		    is_year = 1605
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SPA_No.08a
+			define_heir = { 
+		        name = "Felipe"
+		        monarch_name = "Felipe IV"
+		        dynasty = "von Habsburg"
+		        birth_date = 1605.4.8
+		        death_date = 1665.9.17
+		        claim = 95
+		        adm = 2
+		        dip = 3
+		        mil = 1
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_SPA_No.09a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    OR = { tag = CAS AND = { tag = SPA } }
+		    has_ruler = "Felipe IV"
+		    NOT = { is_year = 1700 }
+		    NOT = { has_global_flag = monarch_SPA_No.09a }
+		}
+		allow = {
+		    is_year = 1661
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SPA_No.09a
+			define_heir = { 
+		        name = "Carlos"
+		        monarch_name = "Carlos II"
+		        dynasty = "von Habsburg"
+		        birth_date = 1661.11.6
+		        death_date = 1700.11.1
+		        claim = 95
+		        adm = 1
+		        dip = 1 # dip = 0
+		        mil = 1 # mil = 0
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_SPA_No.10a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    OR = { tag = CAS AND = { tag = SPA } }
+		    has_ruler = "Carlos II"
+		    NOT = { is_year = 1746 }
+		    NOT = { has_global_flag = monarch_SPA_No.10a }
+		}
+		allow = {
+		    is_year = 1683
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SPA_No.10a
+			define_heir = { 
+		        name = "Felipe"
+		        monarch_name = "Felipe V"
+		        dynasty = "de Bourbon"
+		        birth_date = 1683.12.19
+		        death_date = 1746.7.9
+		        claim = 95
+		        adm = 3
+		        dip = 1
+		        mil = 3
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_SPA_No.11a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    OR = { tag = CAS AND = { tag = SPA } }
+		    has_ruler = "Felipe V"
+		    NOT = { is_year = 1724 }
+		    NOT = { has_global_flag = monarch_SPA_No.11a }
+		}
+		allow = {
+		    is_year = 1707
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SPA_No.11a
+			define_heir = { 
+		        name = "Luis"
+		        monarch_name = "Luis I"
+		        dynasty = "de Bourbon"
+		        birth_date = 1707.8.25
+		        death_date = 1724.8.31
+		        claim = 95
+		        adm = 1
+		        dip = 1
+		        mil = 1
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_SPA_No.12a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    OR = { tag = CAS AND = { tag = SPA } }
+		    has_ruler = "Luis I"
+		    NOT = { is_year = 1759 }
+		    NOT = { has_global_flag = monarch_SPA_No.12a }
+		}
+		allow = {
+		    is_year = 1724
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SPA_No.12a
+			define_heir = { 
+		        name = "Felipe"
+		        monarch_name = "Felipe V"
+		        dynasty = "de Bourbon"
+		        birth_date = 1683.12.19
+		        death_date = 1746.7.9
+		        claim = 95
+		        adm = 3
+		        dip = 1
+		        mil = 3
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_SPA_No.13a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    OR = { tag = CAS AND = { tag = SPA } }
+		    has_ruler = "Felipe V"
+		    NOT = { is_year = 1759 }
+		    has_global_flag = monarch_SPA_No.12a
+		    NOT = { has_global_flag = monarch_SPA_No.13a }
+		}
+		allow = {
+		    is_year = 1724
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SPA_No.13a
+			define_heir = { 
+		        name = "Fernando"
+		        monarch_name = "Fernando VI"
+		        dynasty = "de Bourbon"
+		        birth_date = 1713.9.23
+		        death_date = 1759.8.10
+		        claim = 95
+		        adm = 2
+		        dip = 1
+		        mil = 2
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_SPA_No.14a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    OR = { tag = CAS AND = { tag = SPA } }
+		    has_ruler = "Fernando VI"
+		    NOT = { is_year = 1788 }
+		    NOT = { has_global_flag = monarch_SPA_No.14a }
+		}
+		allow = {
+		    is_year = 1716
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SPA_No.14a
+			define_heir = {
+		        name = "Carlos"
+		        monarch_name = "Carlos III"
+		        dynasty = "de Bourbon"
+		        birth_date = 1716.1.20
+		        death_date = 1788.12.14
+		        claim = 95
+		        adm = 4
+		        dip = 2
+		        mil = 3
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_SPA_No.15a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    OR = { tag = CAS AND = { tag = SPA } }
+		    has_ruler = "Carlos III"
+		    NOT = { is_year = 1819 }
+		    NOT = { has_global_flag = monarch_SPA_No.15a }
+		}
+		allow = {
+		    is_year = 1748
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SPA_No.15a
+			define_heir = {
+		        name = "Carlos"
+		        monarch_name = "Carlos IV"
+		        dynasty = "de Bourbon"
+		        birth_date = 1748.11.11
+		        death_date = 1819.1.20
+		        claim = 95
+		        adm = 1
+		        dip = 2
+		        mil = 1
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_SPA_No.16a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    OR = { tag = CAS AND = { tag = SPA } }
+		    has_ruler = "Carlos IV"
+		    NOT = { is_year = 1833 }
+		    NOT = { has_global_flag = monarch_SPA_No.16a }
+		}
+		allow = {
+		    is_year = 1784
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SPA_No.16a
+			define_heir = { 
+                name = "Fernando"
+		        monarch_name = "Fernando VII"
+		        dynasty = "de Bourbon"
+		        birth_date = 1784.10.14
+		        death_date = 1833.9.29
+		        claim = 95
+		        adm = 1
+		        dip = 2
+		        mil = 1
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+}

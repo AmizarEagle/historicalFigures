@@ -1,0 +1,336 @@
+country_decisions = {
+
+	monarch_ANH_No.00a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = ANH
+		    has_ruler = "Georg I"
+		    NOT = { is_year = 1516 }
+		    NOT = { has_global_flag = monarch_ANH_No.00a }
+		}
+		allow = {
+		    is_year = 1450
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ANH_No.00a
+			define_heir = { 
+		        name = "Ernst"
+		        monarch_name = "Ernst I"
+		        dynasty = "Askanier"
+		        birth_date = 1450.1.1
+		        death_date = 1516.6.12
+		        claim = 95
+		        adm = 1
+		        dip = 3
+		        mil = 2
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_ANH_No.01a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = ANH
+		    has_ruler = "Ernst I"
+		    NOT = { is_year = 1551 }
+		    NOT = { has_global_flag = monarch_ANH_No.01a }
+		}
+		allow = {
+		    is_year = 1504
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ANH_No.01a
+			define_heir = { 
+		        name = "Johann"
+		        monarch_name = "Johann II"
+		        dynasty = "Askanier"
+		        birth_date = 1504.9.4
+		        death_date = 1551.2.4
+		        claim = 95
+		        adm = 2
+		        dip = 2
+		        mil = 1
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_ANH_No.02a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = ANH
+		    has_ruler = "Johann II"
+		    NOT = { is_year = 1586 }
+		    NOT = { has_global_flag = monarch_ANH_No.02a }
+		}
+		allow = {
+		    is_year = 1536
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ANH_No.02a
+			define_heir = { 
+		        name = "Joachim Ernst"
+		        monarch_name = "Joachim Ernst"
+		        dynasty = "Askanier"
+		        birth_date = 1536.10.21
+		        death_date = 1586.12.6
+		        claim = 95
+		        adm = 1
+		        dip = 3
+		        mil = 3
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_ANH_No.03a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = ANH
+		    OR = { 
+		        has_ruler = "Joachim Ernst"
+		        has_ruler = "Joachim Ernst I"
+		    }
+		    NOT = { is_year = 1618 }
+		    NOT = { has_global_flag = monarch_ANH_No.03a }
+		}
+		allow = {
+		    is_year = 1567
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ANH_No.03a
+			define_heir = { 
+		        name = "Johann Georg"
+		        monarch_name = "Johann Georg I"
+		        dynasty = "Askanier"
+		        birth_date = 1567.5.9
+		        death_date = 1618.5.24
+		        claim = 95
+		        adm = 1
+		        dip = 2
+		        mil = 1
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_ANH_No.04a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = ANH
+		    has_ruler = "Johann Georg I"
+		    NOT = { is_year = 1660 }
+		    NOT = { has_global_flag = monarch_ANH_No.04a }
+		}
+		allow = {
+		    is_year = 1596
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ANH_No.04a
+			define_heir = { 
+		        name = "Johann Kasimir"
+		        monarch_name = "Johann Kasimir I"
+		        dynasty = "Askanier"
+		        birth_date = 1596.9.7
+		        death_date = 1660.9.15
+		        claim = 95
+		        adm = 4
+		        dip = 2
+		        mil = 2
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_ANH_No.05a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = ANH
+		    has_ruler = "Johann Kasimir I"
+		    NOT = { is_year = 1693 }
+		    NOT = { has_global_flag = monarch_ANH_No.05a }
+		}
+		allow = {
+		    is_year = 1627
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ANH_No.05a
+			define_heir = { 
+		        name = "Johann Georg"
+		        monarch_name = "Johann Georg II"
+		        dynasty = "Askanier"
+		        birth_date = 1627.11.17
+		        death_date = 1693.8.7
+		        claim = 95
+		        adm = 1
+		        dip = 1
+		        mil = 3
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_ANH_No.06a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = ANH
+		    has_ruler = "Johann Georg II"
+		    NOT = { is_year = 1747 }
+		    NOT = { has_global_flag = monarch_ANH_No.06a }
+		}
+		allow = {
+		    is_year = 1676
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ANH_No.06a
+			define_heir = { 
+		        name = "Leopold"
+		        monarch_name = "Leopold I"
+		        dynasty = "Askanier"
+		        birth_date = 1676.7.3
+		        death_date = 1747.4.7
+		        claim = 95
+		        adm = 2
+		        dip = 2
+		        mil = 2
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_ANH_No.07a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = ANH
+		    has_ruler = "Leopold I"
+		    NOT = { is_year = 1751 }
+		    NOT = { has_global_flag = monarch_ANH_No.07a }
+		}
+		allow = {
+		    is_year = 1700
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ANH_No.07a
+			define_heir = {
+		        name = "Leopold Maximilian"
+		        monarch_name = "Leopold II Maximilian"
+		        dynasty = "Askanier"
+		        birth_date = 1700.12.25
+		        death_date = 1751.12.16
+		        claim = 95
+		        adm = 2
+		        dip = 3
+		        mil = 4
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_ANH_No.08a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = ANH
+		    has_ruler = "Leopold II Maximilian"
+		    NOT = { is_year = 1817 }
+		    NOT = { has_global_flag = monarch_ANH_No.08a }
+		}
+		allow = {
+		    is_year = 1740
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ANH_No.08a
+			define_heir = { 
+		        name = "Leopold Frederick Franz"
+		        monarch_name = "Leopold III"
+		        dynasty = "Askanier"
+		        birth_date = 1740.8.10
+		        death_date = 1817.8.9
+		        claim = 95
+		        adm = 1 # adm = 0
+		        dip = 1 # dip = 0
+		        mil = 1 # mil = 0
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_ANH_No.09a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = ANH
+		    has_ruler = "Leopold III"
+		    NOT = { is_year = 1871 }
+		    NOT = { has_global_flag = monarch_ANH_No.09a }
+		}
+		allow = {
+		    is_year = 1794
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_ANH_No.09a
+			define_heir = { 
+		        name = "Leopold Friedrich"
+		        monarch_name =" Leopold IV"
+		        dynasty = "Askanier"
+		        birth_date = 1794.10.1
+		        death_date = 1871.5.22
+		        claim = 95
+		        adm = 1
+		        dip = 1 # dip = 0
+		        mil = 1
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+}

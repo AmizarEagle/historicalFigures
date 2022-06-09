@@ -1,0 +1,565 @@
+country_decisions = {
+
+	monarch_POR_No.00a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = POR
+		    has_ruler = "Infante Pedro"
+		    NOT = { is_year = 1481 }
+		    NOT = { has_global_flag = monarch_POR_No.00a }
+		}
+		allow = {
+		    is_year = 1432
+		    is_lesser_in_union = no
+			has_regency = yes
+		}
+		effect = {
+			set_global_flag = monarch_POR_No.00a
+			define_heir = { 
+		        name = "Afonso"
+		        monarch_name = "Afonso V"
+		        dynasty = "de Avis"
+		        birth_date = 1432.1.15
+		        death_date = 1481.8.28
+		        claim = 95
+		        adm = 3
+		        dip = 2
+		        mil = 2
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_POR_No.01a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = POR
+		    has_ruler = "Afonso V"
+		    NOT = { is_year = 1495 }
+		    NOT = { has_global_flag = monarch_POR_No.01a }
+		}
+		allow = {
+		    is_year = 1455
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_POR_No.01a
+			define_heir = { 
+		        name = "João"
+		        monarch_name = "João II"
+		        dynasty = "de Avis"
+		        birth_date = 1455.3.3
+		        death_date = 1495.10.25
+		        claim = 95
+		        adm = 2
+		        dip = 5
+		        mil = 4
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_POR_No.02a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = POR
+		    has_ruler = "João II"
+		    NOT = { is_year = 1521 }
+		    NOT = { has_global_flag = monarch_POR_No.02a }
+		}
+		allow = {
+		    is_year = 1469
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_POR_No.02a
+			define_heir = { 
+		        name = "Manuel"
+		        monarch_name = "Manuel I"
+		        dynasty = "de Avis"
+		        birth_date = 1469.5.31
+		        death_date = 1521.12.13
+		        claim = 95
+		        adm = 4
+		        dip = 5
+		        mil = 3
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_POR_No.03a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = POR
+		    has_ruler = "Manuel I"
+		    NOT = { is_year = 1557 }
+		    NOT = { has_global_flag = monarch_POR_No.03a }
+		}
+		allow = {
+		    is_year = 1502
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_POR_No.03a
+			define_heir = { 
+		        name = "João"
+		        monarch_name = "João III"
+		        dynasty = "de Avis"
+		        birth_date = 1502.6.7
+		        death_date = 1557.6.11
+		        claim = 95
+		        adm = 1
+		        dip = 5
+		        mil = 1
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_POR_No.04a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = POR
+		    OR = { has_ruler = "João III" }
+		    NOT = { is_year = 1578 }
+		    NOT = { has_global_flag = monarch_POR_No.04a }
+		}
+		allow = {
+		    is_year = 1554
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_POR_No.04a
+			define_heir = { 
+		        name = "Sebastião"
+		        monarch_name = "Sebastião I"
+		        dynasty = "de Avis"
+		        birth_date = 1554.1.20
+		        death_date = 1578.8.4
+		        claim = 95
+		        adm = 2
+		        dip = 2
+		        mil = 4
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_POR_No.05a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = POR
+		    has_ruler = "Sebastião I"
+		    NOT = { is_year = 1580 }
+		    NOT = { has_global_flag = monarch_POR_No.05a }
+		}
+		allow = {
+		    is_year = 1512
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_POR_No.05a
+			define_heir = { 
+		        name = "Henrique"
+		        monarch_name = "Henrique I o Cardeal-Rei"
+		        dynasty = "de Avis"
+		        birth_date = 1512.1.31
+		        death_date = 1580.1.31
+		        claim = 80
+		        adm = 2
+		        dip = 2
+		        mil = 2
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_POR_No.06a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = POR
+		    OR = { has_ruler = "Henrique I o Cardeal-Rei" AND = { has_ruler = "Henrique I" } }
+		    NOT = { is_year = 1595 }
+		    NOT = { has_global_flag = monarch_POR_No.06a }
+		}
+		allow = {
+		    is_year = 1531
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_POR_No.06a
+			define_heir = { 
+		        name = "António"
+		        monarch_name = "António I"
+		        dynasty = "de Avis"
+		        birth_date = 1531.1.1
+		        death_date = 1595.8.26
+		        claim = 95
+		        adm = 4
+		        dip = 3
+		        mil = 4
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_POR_No.07a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = POR
+		    has_ruler = "António I"
+		    NOT = { is_year = 1598 }
+		    NOT = { has_global_flag = monarch_POR_No.07a }
+		}
+		allow = {
+		    is_year = 1527
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_POR_No.07a
+			define_heir = {
+		        name = "Filipe"
+		        monarch_name = "Filipe I" # Philip II of Spain
+		        dynasty = "von Habsburg"
+		        birth_date = 1527.5.21
+		        death_date = 1598.9.13
+		        claim = 95
+		        adm = 4
+		        dip = 3
+		        mil = 4
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_POR_No.08a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = POR
+		    has_ruler = "Filipe I"
+		    NOT = { is_year = 1621 }
+		    NOT = { has_global_flag = monarch_POR_No.08a }
+		}
+		allow = {
+		    is_year = 1578
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_POR_No.08a
+			define_heir = { 
+		        name = "Filipe"
+		        monarch_name = "Filipe II" # Philip III of Spain
+		        dynasty = "von Habsburg"
+		        birth_date = 1578.4.14
+		        death_date = 1621.3.31
+		        claim = 95
+		        adm = 1
+		        dip = 1 # dip = 0
+		        mil = 1
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_POR_No.09a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = POR
+		    has_ruler = "Filipe II"
+		    NOT = { is_year = 1665 }
+		    NOT = { has_global_flag = monarch_POR_No.09a }
+		}
+		allow = {
+		    is_year = 1605
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_POR_No.09a
+			define_heir = { 
+		        name = "Filipe"
+		        monarch_name = "Filipe III" # Philip IV of Spain
+		        dynasty = "von Habsburg"
+		        birth_date = 1605.4.8
+		        death_date = 1665.9.17
+		        claim = 95
+		        adm = 2
+		        dip = 3
+		        mil = 1
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_POR_No.10a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = POR
+		    has_ruler = "Filipe III"
+		    NOT = { is_year = 1656 }
+		    NOT = { has_global_flag = monarch_POR_No.10a }
+		}
+		allow = {
+		    is_year = 1604
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_POR_No.10a
+			define_heir = {
+			    name = "João"
+		        monarch_name = "João IV"
+		        dynasty = "de Bragança"
+		        birth_date = 1604.3.19
+		        death_date = 1656.11.6
+		        claim = 95
+		        adm = 3
+		        dip = 5
+		        mil = 3
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_POR_No.11a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = POR
+		    has_ruler = "João IV"
+		    NOT = { is_year = 1683 }
+		    NOT = { has_global_flag = monarch_POR_No.11a }
+		}
+		allow = {
+		    is_year = 1643
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_POR_No.11a
+			define_heir = { 
+		        name = "Afonso"
+		        monarch_name = "Afonso VI"
+		        dynasty = "de Bragança"
+		        birth_date = 1643.8.21
+		        death_date = 1683.9.12
+		        claim = 95
+		        adm = 1 # adm = 0
+		        dip = 1 # dip = 0
+		        mil = 1 # mil = 0
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_POR_No.12a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = POR
+		    has_ruler = "Afonso VI"
+		    NOT = { is_year = 1706 }
+		    NOT = { has_global_flag = monarch_POR_No.12a }
+		}
+		allow = {
+		    is_year = 1648
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_POR_No.12a
+			define_heir = { 
+		        name = "Pedro"
+		        monarch_name = "Pedro II"
+		        dynasty = "de Bragança"
+		        birth_date = 1648.4.26
+		        death_date = 1706.12.9
+		        claim = 95
+		        adm = 5
+		        dip = 3
+		        mil = 4
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_POR_No.13a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = POR
+		    has_ruler = "Pedro II"
+		    NOT = { is_year = 1750 }
+		    NOT = { has_global_flag = monarch_POR_No.13a }
+		}
+		allow = {
+		    is_year = 1689
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_POR_No.13a
+			define_heir = { 
+		        name = "João"
+		        monarch_name = "João V"
+		        dynasty = "de Bragança"
+		        birth_date = 1689.10.22
+		        death_date = 1750.7.31
+		        claim = 95
+		        adm = 2
+		        dip = 2
+		        mil = 3
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_POR_No.14a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = POR
+		    has_ruler = "João V"
+		    NOT = { is_year = 1777 }
+		    NOT = { has_global_flag = monarch_POR_No.14a }
+		}
+		allow = {
+		    is_year = 1714
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_POR_No.14a
+			define_heir = {
+		        name = "José"
+		        monarch_name = "José I"
+		        dynasty = "de Bragança"
+		        birth_date = 1714.6.6
+		        death_date = 1777.2.24
+		        claim = 95
+		        adm = 6
+		        dip = 3
+		        mil = 3
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_POR_No.15a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = POR
+		    has_ruler = "José I"
+		    NOT = { is_year = 1816 }
+		    NOT = { has_global_flag = monarch_POR_No.15a }
+		}
+		allow = {
+		    is_year = 1734
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_POR_No.15a
+			define_heir = {
+		        name = "Maria"
+		        monarch_name = "Maria I"
+		        dynasty = "de Bragança"
+		        birth_date = 1734.12.17
+		        death_date = 1816.3.20
+		        claim = 95
+		        adm = 1 # adm = 0
+		        dip = 1
+		        mil = 1 # mil = 0
+		        female = yes
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_POR_No.16a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = POR
+		    has_ruler = "Maria I"
+		    NOT = { is_year = 1826 }
+		    NOT = { has_global_flag = monarch_POR_No.16a }
+		}
+		allow = {
+		    is_year = 1767
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_POR_No.16a
+			define_heir = { 
+		        name = "João"
+		        monarch_name = "João VI"
+		        dynasty = "de Bragança"
+		        birth_date = 1767.5.13
+		        death_date = 1826.3.10
+		        claim = 95
+		        adm = 1
+		        dip = 1
+		        mil = 1 # mil = 0
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+}

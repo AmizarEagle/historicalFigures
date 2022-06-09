@@ -1,0 +1,555 @@
+country_decisions = {
+
+	monarch_SPA_No.00b = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    OR = { tag = CAS AND = { tag = SPA } } 
+		    has_ruler = "Juan II"
+		    has_global_flag = monarch_SPA_No.00a
+		    NOT = { is_year = 1474 }
+		    NOT = { has_global_flag = monarch_SPA_No.00b }
+		}
+		allow = {
+		    is_year = 1454
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SPA_No.00b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_SPA_No.01b = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    OR = { tag = CAS AND = { tag = SPA } } 
+		    has_ruler = "Enrique IV"
+		    has_global_flag = monarch_SPA_No.01a
+		    NOT = { is_year = 1504 }
+		    NOT = { has_global_flag = monarch_SPA_No.01b }
+		}
+		allow = {
+		    is_year = 1474
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SPA_No.01b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_SPA_No.02b = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    OR = { tag = CAS AND = { tag = SPA } } 
+		    has_ruler = "Isabel I"
+		    has_global_flag = monarch_SPA_No.02a
+		    NOT = { is_year = 1555 }
+		    NOT = { has_global_flag = monarch_SPA_No.02b }
+		}
+		allow = {
+		    is_year = 1504
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SPA_No.02b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_SPA_No.03b = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    OR = { tag = CAS AND = { tag = SPA } } 
+		    has_ruler = "Juana I"
+		    has_global_flag = monarch_SPA_No.03a
+		    NOT = { is_year = 1507 } # 1506
+		    NOT = { has_global_flag = monarch_SPA_No.03b }
+		}
+		allow = {
+		    is_year = 1506
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SPA_No.03b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_SPA_No.04b = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    OR = { tag = CAS AND = { tag = SPA } } 
+		    has_ruler = "Felipe I"
+		    has_global_flag = monarch_SPA_No.04a
+		    NOT = { is_year = 1516 }
+		    NOT = { has_global_flag = monarch_SPA_No.04b }
+		}
+		allow = {
+		    is_year = 1506
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SPA_No.04b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_SPA_No.05b = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    OR = { tag = CAS AND = { tag = SPA } } 
+		    has_ruler = "Fernando V"
+		    has_global_flag = monarch_SPA_No.05a
+		    NOT = { is_year = 1558 }
+		    NOT = { has_global_flag = monarch_SPA_No.05b }
+		}
+		allow = {
+		    is_year = 1516
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SPA_No.05b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_SPA_No.06b = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    OR = { tag = CAS AND = { tag = SPA } } 
+		    has_ruler = "Carlos I"
+		    has_global_flag = monarch_SPA_No.06a
+		    NOT = { is_year = 1598 }
+		    NOT = { has_global_flag = monarch_SPA_No.06b }
+		}
+		allow = {
+		    is_year = 1556
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SPA_No.06b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_SPA_No.07b = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    OR = { tag = CAS AND = { tag = SPA } } 
+		    has_ruler = "Felipe II"
+		    has_global_flag = monarch_SPA_No.07a
+		    NOT = { has_global_flag = monarch_SPA_No.08a }
+		    NOT = { is_year = 1621 }
+		    NOT = { has_global_flag = monarch_SPA_No.07b }
+		}
+		allow = {
+		    is_year = 1598
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SPA_No.07b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_SPA_No.08b = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    OR = { tag = CAS AND = { tag = SPA } } 
+		    has_ruler = "Felipe III"
+		    has_global_flag = monarch_SPA_No.08a
+		    NOT = { is_year = 1665 }
+		    NOT = { has_global_flag = monarch_SPA_No.08b }
+		}
+		allow = {
+		    is_year = 1621
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SPA_No.08b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_SPA_No.09b = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    OR = { tag = CAS AND = { tag = SPA } } 
+		    has_ruler = "Felipe IV"
+		    has_global_flag = monarch_SPA_No.09a
+		    NOT = { is_year = 1700 }
+		    NOT = { has_global_flag = monarch_SPA_No.09b }
+		}
+		allow = {
+		    is_year = 1665
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SPA_No.09b
+            if = {
+                limit = {
+                    is_year = 1634
+                    NOT = { is_year = 1696 } 
+                    NOT = { heir_age = 15 }                         
+                    }
+                    define_ruler = { 
+		                name = "(Regent) Maria Ana"
+		                dynasty = "von Habsburg"
+		                claim = 95
+		                adm = 1
+		                dip = 1
+		                mil = 1
+		                female = yes
+		                regency = yes
+		            }
+		            hidden_effect = {
+			            add_legitimacy = 100
+			            add_stability = -1
+			        }
+            }
+            if = {
+                limit = {
+                    heir_age = 15                         
+                    }
+                    kill_ruler = yes
+			        hidden_effect = { add_legitimacy = 100 }
+            }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_SPA_No.10b = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    OR = { tag = CAS AND = { tag = SPA } } 
+		    has_ruler = "Carlos II"
+		    has_global_flag = monarch_SPA_No.10a
+		    NOT = { is_year = 1746 }
+		    NOT = { has_global_flag = monarch_SPA_No.10b }
+		}
+		allow = {
+		    is_year = 1700
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SPA_No.10b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_SPA_No.11b = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    OR = { tag = CAS AND = { tag = SPA } } 
+		    has_ruler = "Felipe V"
+		    has_global_flag = monarch_SPA_No.11a
+		    NOT = { is_year = 1725 } # 1724
+		    NOT = { has_global_flag = monarch_SPA_No.11b }
+		}
+		allow = {
+		    is_year = 1724
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SPA_No.11b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_SPA_No.12b = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    OR = { tag = CAS AND = { tag = SPA } } 
+		    has_ruler = "Luis I"
+		    has_global_flag = monarch_SPA_No.12a
+		    NOT = { is_year = 1759 }
+		    NOT = { has_global_flag = monarch_SPA_No.12b }
+		}
+		allow = {
+		    is_year = 1724
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SPA_No.12b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_SPA_No.13b = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    OR = { tag = CAS AND = { tag = SPA } } 
+		    has_ruler = "Felipe V"
+		    has_global_flag = monarch_SPA_No.13a
+		    NOT = { is_year = 1759 }
+		    NOT = { has_global_flag = monarch_SPA_No.13b }
+		}
+		allow = {
+		    is_year = 1746
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SPA_No.13b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_SPA_No.14b = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    OR = { tag = CAS AND = { tag = SPA } } 
+		    has_ruler = "Fernando VI"
+		    has_global_flag = monarch_SPA_No.14a
+		    NOT = { is_year = 1788 }
+		    NOT = { has_global_flag = monarch_SPA_No.14b }
+		}
+		allow = {
+		    is_year = 1759
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SPA_No.14b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_SPA_No.15b = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    OR = { tag = CAS AND = { tag = SPA } } 
+		    has_ruler = "Carlos III"
+		    has_global_flag = monarch_SPA_No.15a
+		    NOT = { is_year = 1819 }
+		    NOT = { has_global_flag = monarch_SPA_No.15b }
+		}
+		allow = {
+		    is_year = 1788
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SPA_No.15b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_SPA_No.16b = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    OR = { tag = CAS AND = { tag = SPA } } 
+		    has_ruler = "Carlos IV"
+		    has_global_flag = monarch_SPA_No.16a
+		    NOT = { is_year = 1833 }
+		    NOT = { has_global_flag = monarch_SPA_No.16b }
+		}
+		allow = {
+		    is_year = 1819
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SPA_No.16b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_SPA_No.17b = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    OR = { tag = CAS AND = { tag = SPA } } 
+		    has_ruler = "Anne I"
+		    has_global_flag = monarch_SPA_No.17a
+		    NOT = { is_year = 1727 }
+		    NOT = { has_global_flag = monarch_SPA_No.17b }
+		}
+		allow = {
+		    is_year = 1714
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SPA_No.17b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_SPA_No.18b = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    OR = { tag = CAS AND = { tag = SPA } } 
+		    has_ruler = "George I"
+		    has_global_flag = monarch_SPA_No.18a
+		    NOT = { is_year = 1760 }
+		    NOT = { has_global_flag = monarch_SPA_No.18b }
+		}
+		allow = {
+		    is_year = 1727
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SPA_No.18b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_SPA_No.19b = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    OR = { tag = CAS AND = { tag = SPA } } 
+		    has_ruler = "George II"
+		    has_global_flag = monarch_SPA_No.19a
+		    NOT = { is_year = 1820 }
+		    NOT = { has_global_flag = monarch_SPA_No.19b }
+		}
+		allow = {
+		    is_year = 1760
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SPA_No.19b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_SPA_No.20b = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    OR = { tag = CAS AND = { tag = SPA } } 
+		    has_ruler = "George III"
+		    has_global_flag = monarch_SPA_No.20a
+		    NOT = { is_year = 1830 }
+		    NOT = { has_global_flag = monarch_SPA_No.20b }
+		}
+		allow = {
+		    is_year = 1811
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_SPA_No.20b
+			kill_ruler = yes
+			hidden_effect = { add_legitimacy = 100 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+}

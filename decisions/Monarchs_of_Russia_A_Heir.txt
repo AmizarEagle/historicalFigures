@@ -1,0 +1,737 @@
+country_decisions = {
+
+	monarch_RUS_No.00a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    OR = { tag = MOS AND = { tag = RUS } }
+		    has_ruler = "Vasiliy II Temny"
+		    NOT = { is_year = 1505 }
+		    NOT = { has_global_flag = monarch_RUS_No.00a }
+		}
+		allow = {
+		    is_year = 1440
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_RUS_No.00a
+			define_heir = { 
+		        name = "Ivan Veliky"
+		        monarch_name = "Ivan III Veliky"
+		        dynasty = Rurikovich
+		        birth_date = 1440.1.22
+		        death_date = 1505.10.27
+		        claim = 95
+		        adm = 3
+		        dip = 4
+		        mil = 5
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_RUS_No.01a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    OR = { tag = MOS AND = { tag = RUS } }
+		    has_ruler = "Ivan III Veliky"
+		    NOT = { is_year = 1533 }
+		    NOT = { has_global_flag = monarch_RUS_No.01a }
+		}
+		allow = {
+		    is_year = 1479
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_RUS_No.01a
+			define_heir = { 
+		        name = "Vasiliy"
+		        monarch_name = "Vasiliy III"
+		        dynasty = "Rurikovich"
+		        birth_date = 1479.3.25
+		        death_date = 1533.12.3
+		        claim = 95
+		        adm = 3
+		        dip = 2
+		        mil = 3
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_RUS_No.02a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    OR = { tag = MOS AND = { tag = RUS } }
+		    has_ruler = "Vasiliy III"
+		    NOT = { is_year = 1584 }
+		    NOT = { has_global_flag = monarch_RUS_No.02a }
+		}
+		allow = {
+		    is_year = 1530
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_RUS_No.02a
+			define_heir = { 
+		        name = "Ivan"
+		        monarch_name = "Ivan IV Grozny"
+		        dynasty = "Rurikovich"
+		        birth_date = 1530.8.25
+		        death_date = 1584.3.28
+		        claim = 95
+		        adm = 2
+		        dip = 5
+		        mil = 6
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_RUS_No.03a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    OR = { tag = MOS AND = { tag = RUS } }
+		    OR = { has_ruler = "Ivan IV Grozny" AND = { has_ruler = "Ivan IV" } }
+		    NOT = { is_year = 1598 }
+		    NOT = { has_global_flag = monarch_RUS_No.03a }
+		}
+		allow = {
+		    is_year = 1557
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_RUS_No.03a
+			define_heir = { 
+		        name = "Fedor"
+		        monarch_name = "Fedor I"
+		        dynasty = "Rurikovich"
+		        birth_date = 1557.5.31
+		        death_date = 1598.1.16
+		        claim = 95
+		        adm = 1
+		        dip = 2
+		        mil = 3
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_RUS_No.04a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    OR = { tag = MOS AND = { tag = RUS } }
+		    OR = { has_ruler = "Fedor I" AND = { has_ruler = "Fyodor I" } }
+		    NOT = { is_year = 1605 }
+		    NOT = { has_global_flag = monarch_RUS_No.04a }
+		}
+		allow = {
+		    is_year = 1552
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_RUS_No.04a
+			define_heir = { 
+		        name = "Boris"
+		        monarch_name = "Boris I"
+		        dynasty = Godunov
+		        birth_date = 1552.1.1
+		        death_date = 1605.4.23
+		        claim = 80
+		        adm = 5
+		        dip = 2
+		        mil = 3
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_RUS_No.05a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    OR = { tag = MOS AND = { tag = RUS } }
+		    has_ruler = "Boris I"
+		    NOT = { is_year = 1605 }
+		    NOT = { has_global_flag = monarch_RUS_No.05a }
+		}
+		allow = {
+		    is_year = 1581
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_RUS_No.05a
+			define_heir = { 
+		        name = "Dmitry"
+		        monarch_name = "Dmitry I"
+		        dynasty = Samozvanets
+		        birth_date = 1581.1.1
+		        death_date = 1605.5.27
+		        claim = 80
+		        adm = 1 # adm = 0
+		        dip = 1 # dip = 0
+		        mil = 1 # mil = 0
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_RUS_No.06a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    OR = { tag = MOS AND = { tag = RUS } }
+		    has_ruler = "Dmitry I"
+		    NOT = { is_year = 1612 }
+		    NOT = { has_global_flag = monarch_RUS_No.06a }
+		}
+		allow = {
+		    is_year = 1552
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_RUS_No.06a
+			define_heir = { 
+		        name = "Vasiliy"
+		        monarch_name = "Vasiliy IV"
+		        dynasty = Shuisky
+		        birth_date = 1552.9.22
+		        death_date = 1612.9.12
+		        claim = 95
+		        adm = 1
+		        dip = 1
+		        mil = 3
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_RUS_No.07a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    OR = { tag = MOS AND = { tag = RUS } }
+		    has_ruler = "Vasiliy IV"
+		    NOT = { is_year = 1648 }
+		    NOT = { has_global_flag = monarch_RUS_No.07a }
+		}
+		allow = {
+		    is_year = 1595
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_RUS_No.07a
+			define_heir = {
+			    name = "Vladislav"
+		        monarch_name = "Vladislav I"
+		        dynasty = Vasa
+		        birth_date = 1595.6.9
+		        death_date = 1648.5.20
+		        claim = 80
+		        adm = 1 # adm = 0
+		        dip = 1
+		        mil = 1 # mil = 0
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_RUS_No.08a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    OR = { tag = MOS AND = { tag = RUS } }
+		    has_ruler = "Vladislav I"
+		    NOT = { is_year = 1645 }
+		    NOT = { has_global_flag = monarch_RUS_No.08a }
+		}
+		allow = {
+		    is_year = 1596
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_RUS_No.08a
+			define_heir = {
+			    name = "Mikhail"
+		        monarch_name = "Mikhail I"
+		        dynasty = Romanov
+		        birth_date = 1596.7.22
+		        death_date = 1645.7.23
+		        claim = 95
+		        adm = 4
+		        dip = 2
+		        mil = 3
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_RUS_No.09a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    OR = { tag = MOS AND = { tag = RUS } }
+		    has_ruler = "Mikhail I"
+		    NOT = { is_year = 1676 }
+		    NOT = { has_global_flag = monarch_RUS_No.09a }
+		}
+		allow = {
+		    is_year = 1629
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_RUS_No.09a
+			define_heir = { 
+		        name = "Aleksey"
+		        monarch_name = "Aleksey I"
+		        dynasty = "Romanov"
+		        birth_date = 1629.3.9
+		        death_date = 1676.1.29
+		        claim = 95
+		        adm = 2
+		        dip = 2
+		        mil = 3
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_RUS_No.10a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    OR = { tag = MOS AND = { tag = RUS } }
+		    has_ruler = "Aleksey I"
+		    NOT = { is_year = 1682 }
+		    NOT = { has_global_flag = monarch_RUS_No.10a }
+		}
+		allow = {
+		    is_year = 1661
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_RUS_No.10a
+			define_heir = { 
+		        name = "Fedor"
+		        monarch_name = "Fedor III"
+		        dynasty = "Romanov"
+		        birth_date = 1661.6.9
+		        death_date = 1682.5.7
+		        claim = 95
+		        adm = 3
+		        dip = 3
+		        mil = 4
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_RUS_No.11a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    OR = { tag = MOS AND = { tag = RUS } }
+		    OR = { has_ruler = "Fedor III" AND = { has_ruler = "Fyodor III" } }
+		    NOT = { is_year = 1725 }
+		    NOT = { has_global_flag = monarch_RUS_No.11a }
+		}
+		allow = {
+		    is_year = 1672
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_RUS_No.11a
+			define_heir = { 
+		        name = "Pyotr"
+		        monarch_name = "Pyotr I Veliky"
+		        dynasty = "Romanov"
+		        birth_date = 1672.6.9
+		        death_date = 1725.1.28
+		        claim = 95
+		        adm = 6
+		        dip = 6
+		        mil = 6
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_RUS_No.12a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    OR = { tag = MOS AND = { tag = RUS } }
+		    OR = { has_ruler = "Pyotr I Veliky" AND = { has_ruler = "Pyotr I" } }
+		    NOT = { is_year = 1727 }
+		    NOT = { has_global_flag = monarch_RUS_No.12a }
+		}
+		allow = {
+		    is_year = 1684
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_RUS_No.12a
+			define_heir = { 
+		        name = "Yekaterina"
+		        monarch_name = "Yekaterina I"
+		        dynasty = "Romanov"
+		        birth_date = 1684.4.15
+		        death_date = 1727.5.17
+		        claim = 80
+		        adm = 4
+		        mil = 3
+		        dip = 2
+		        female = yes
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_RUS_No.13a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    OR = { tag = MOS AND = { tag = RUS } }
+		    has_ruler = "Yekaterina I"
+		    NOT = { is_year = 1730 }
+		    NOT = { has_global_flag = monarch_RUS_No.13a }
+		}
+		allow = {
+		    is_year = 1715
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_RUS_No.13a
+			define_heir = { 
+		        name = "Pyotr"
+		        monarch_name = "Pyotr II"
+		        dynasty = "Romanov"
+		        birth_date = 1715.10.23
+		        death_date = 1730.1.30
+		        claim = 95
+		        adm = 1 # adm = 0
+		        dip = 1
+		        mil = 1
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_RUS_No.14a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    OR = { tag = MOS AND = { tag = RUS } }
+		    OR = { has_ruler = "Pyotr II" AND = { Yekaterina I } }
+		    has_global_flag = monarch_RUS_No.13a
+		    NOT = { is_year = 1740 } 
+		    NOT = { has_global_flag = monarch_RUS_No.14a }
+		}
+		allow = {
+		    is_year = 1693
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_RUS_No.14a
+			define_heir = {
+	            name = "Anna"
+		        monarch_name = "Anna I"
+		        dynasty = Romanov
+		        birth_date = 1693.2.7
+		        death_date = 1740.10.28
+		        claim = 95
+		        adm = 2
+		        dip = 2
+		        mil = 1
+		        female = yes
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_RUS_No.15a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    OR = { tag = MOS AND = { tag = RUS } }
+		    has_ruler = "Anna I"
+		    NOT = { is_year = 1764 }
+		    NOT = { has_global_flag = monarch_RUS_No.15a }
+		}
+		allow = {
+		    is_year = 1740
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_RUS_No.15a
+			define_heir = {
+			    name = "Ivan"
+		        monarch_name = "Ivan VI"
+		        dynasty = Romanov
+		        birth_date = 1740.8.23
+		        death_date = 1764.7.16
+		        claim = 95
+		        adm = 2
+		        dip = 2
+		        mil = 1
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_RUS_No.16a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    OR = { tag = MOS AND = { tag = RUS } }
+		    OR = { has_ruler = "Ivan VI" AND = { has_ruler = "Anna I" } } 
+		    has_global_flag = monarch_RUS_No.15a
+		    NOT = { is_year = 1762 }
+		    NOT = { has_global_flag = monarch_RUS_No.16a }
+		}
+		allow = {
+		    is_year = 1709
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_RUS_No.16a
+			define_heir = {
+	            name = "Elizaveta"
+		        monarch_name = "Elizaveta I"
+		        dynasty = Romanov
+		        birth_date = 1709.12.18
+		        death_date = 1762.1.5
+		        claim = 95
+		        adm = 3
+		        dip = 4
+		        mil = 3
+		        female = yes
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_RUS_No.17a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    OR = { tag = MOS AND = { tag = RUS } }
+		    has_ruler = "Elizaveta I"
+		    NOT = { is_year = 1762 }
+		    NOT = { has_global_flag = monarch_RUS_No.17a }
+		}
+		allow = {
+		    is_year = 1728
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_RUS_No.17a
+			define_heir = {
+			    name = "Pyotr"
+		        monarch_name = "Pyotr III"
+		        dynasty = Romanov
+		        birth_date = 1728.2.21
+		        death_date = 1762.7.17
+		        claim = 95
+		        adm = 1
+		        dip = 1 # dip = 0
+		        mil = 2
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_RUS_No.18a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    OR = { tag = MOS AND = { tag = RUS } }
+		    has_ruler = "Pyotr III"
+		    NOT = { is_year = 1796 }
+		    NOT = { has_global_flag = monarch_RUS_No.18a }
+            NOT = { has_global_flag = wih_catherine_rus_flag } # Women in History
+		}
+		allow = {
+		    is_year = 1729
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_RUS_No.18a
+            set_global_flag = wih_catherine_rus_flag # Women in History
+			define_heir = {
+		        name = "Yekaterina Alexeyevna" # Sophie Auguste
+		        monarch_name = "Yekaterina II Velikaya"
+		        dynasty = "Romanov"
+		        birth_date = 1729.5.2
+		        death_date = 1796.11.6
+		        claim = 80
+		        adm = 6
+		        dip = 6
+		        mil = 5
+		        female = yes
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_RUS_No.19a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    OR = { tag = MOS AND = { tag = RUS } }
+		    OR = { has_ruler = "Yekaterina II Velikaya" AND = { has_ruler = "Yekaterina II" } }
+		    NOT = { is_year = 1801 }
+		    NOT = { has_global_flag = monarch_RUS_No.19a }
+		}
+		allow = {
+		    is_year = 1754
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_RUS_No.19a
+			define_heir = {
+		        name = "Pavel"
+		        monarch_name = "Pavel I"
+		        dynasty = "Romanov"
+		        birth_date = 1754.10.1
+		        death_date = 1801.3.23
+		        claim = 95
+		        adm = 2
+		        dip = 2
+		        mil = 1
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_RUS_No.20a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    OR = { tag = MOS AND = { tag = RUS } }
+		    has_ruler = "Pavel I"
+		    NOT = { is_year = 1825 }
+		    NOT = { has_global_flag = monarch_RUS_No.20a }
+		}
+		allow = {
+		    is_year = 1777
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_RUS_No.20a
+			define_heir = {
+		        name = "Aleksandr"
+		        monarch_name = "Aleksandr I"
+		        dynasty = "Romanov"
+		        birth_date = 1777.12.23
+		        death_date = 1825.12.1
+		        claim = 95
+		        adm = 2
+		        dip = 4
+		        mil = 4
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_RUS_No.21a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    OR = { tag = MOS AND = { tag = RUS } }
+		    has_ruler = "Aleksandr I"
+		    NOT = { is_year = 1855 }
+		    NOT = { has_global_flag = monarch_RUS_No.21a }
+		}
+		allow = {
+		    is_year = 1796
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_RUS_No.21a
+			define_heir = {
+		        name = "Nikolaj"
+		        monarch_name = "Nikolaj I"
+		        dynasty = "Romanov"
+		        birth_date = 1796.7.6
+		        death_date = 1855.3.2
+		        claim = 95
+		        adm = 2
+		        dip = 2
+		        mil = 2
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+}

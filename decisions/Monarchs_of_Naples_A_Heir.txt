@@ -1,0 +1,220 @@
+country_decisions = {
+
+	monarch_NAP_No.00a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = NAP
+		    NOT = { is_year = 1494 }
+		    NOT = { has_global_flag = monarch_NAP_No.00a }
+		}
+		allow = {
+		    is_year = 1458
+		    is_lesser_in_union = yes
+		}
+		effect = {
+			set_global_flag = monarch_NAP_No.00a
+			define_heir = { 
+	            name = "Ferdinando"
+		        monarch_name = "Ferdinando I"
+		        dynasty = "de Trastámara"
+		        birth_date = 1424.6.2
+		        death_date = 1494.1.25
+		        claim = 95
+		        adm = 2
+		        dip = 4
+		        mil = 4
+		    }
+            hidden_effect = {
+                define_ruler = { 
+		            name = "(Regent) Alfonso I" # King Alfonso V of Aragon
+		            dynasty = "de Trastámara"
+		            claim = 95
+		            adm = 1
+		            dip = 1
+		            mil = 1
+		            regency = yes
+		        }
+            }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_NAP_No.01a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = NAP
+		    has_ruler = "Ferdinando I"
+		    NOT = { is_year = 1495 }
+		    NOT = { has_global_flag = monarch_NAP_No.01a }
+		}
+		allow = {
+		    is_year = 1448
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_NAP_No.01a
+			define_heir = { 
+		        name = "Alfonso"
+		        monarch_name = "Alfonso II"
+		        dynasty = "de Trastámara"
+		        birth_date = 1448.11.4
+		        death_date = 1495.12.18
+		        claim = 95
+		        adm = 1 # adm = 0
+		        dip = 1
+		        mil = 1 # mil = 0
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_NAP_No.02a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = NAP
+		    has_ruler = "Alfonso II"
+		    NOT = { is_year = 1496 }
+		    NOT = { has_global_flag = monarch_NAP_No.02a }
+		}
+		allow = {
+		    is_year = 1469
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_NAP_No.02a
+			define_heir = { 
+		        name = "Ferdinand"
+		        monarch_name = "Ferdinando II"
+		        dynasty = "de Trastámara"
+		        birth_date = 1469.8.26
+		        death_date = 1496.9.7
+		        claim = 95
+		        adm = 1
+		        dip = 2
+		        mil = 1
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_NAP_No.03a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = NAP
+		    has_ruler = "Ferdinando II"
+		    NOT = { is_year = 1504 }
+		    NOT = { has_global_flag = monarch_NAP_No.03a }
+		}
+		allow = {
+		    is_year = 1452
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_NAP_No.03a
+			define_heir = { 
+		        name = "Federigo"
+		        monarch_name = "Federigo IV"
+		        dynasty = "de Trastámara"
+		        birth_date = 1452.4.19
+		        death_date = 1504.11.9
+		        claim = 95
+		        adm = 1 # adm = 0
+		        dip = 1 # dip = 0
+		        mil = 1 # mil = 0
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_NAP_No.04a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = NAP
+		    is_year = 1504
+		    NOT = { is_year = 1788 }
+		    NOT = { has_global_flag = monarch_NAP_No.04a }
+		}
+		allow = {
+		    is_year = 1735
+			is_lesser_in_union = no
+		}
+		effect = {
+			set_global_flag = monarch_NAP_No.04a
+			define_heir = { 
+	            name = "Carlo"
+		        monarch_name = "Carlo VII" # King Charles III of Spain
+		        dynasty = "de Bourbon"
+		        birth_date = 1716.1.20
+		        death_date = 1788.12.14
+		        claim = 95
+		        adm = 3
+		        dip = 4
+		        mil = 2
+		    }
+            hidden_effect = {
+                define_ruler = { 
+		            name = "(Regent) Filippo V" # King Philip V of Spain
+		            dynasty = "de Bourbon"
+		            claim = 95
+		            adm = 3
+		            dip = 4
+		            mil = 2
+		            regency = yes
+		        }
+            }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_NAP_No.05a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = NAP
+		    has_ruler = "Carlo VII"
+		    NOT = { is_year = 1825 }
+		    NOT = { has_global_flag = monarch_NAP_No.05a }
+		}
+		allow = {
+		    is_year = 1751
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_NAP_No.05a
+			define_heir = { 
+		        name = "Ferrante"
+		        monarch_name = "Ferrante IV"
+		        dynasty = "de Bourbon"
+		        birth_date = 1751.1.12
+		        death_date = 1825.1.4
+		        claim = 95
+		        adm = 1 # adm = 0
+		        dip = 1 # dip = 0
+		        mil = 1 # mil = 0
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+}

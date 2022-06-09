@@ -1,0 +1,531 @@
+country_decisions = {
+
+	monarch_FRA_No.00a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = FRA
+		    has_ruler = "Charles VII"
+		    NOT = { is_year = 1483 }
+		    NOT = { has_global_flag = monarch_FRA_No.00a }
+		}
+		allow = {
+		    is_year = 1423
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_FRA_No.00a
+			define_heir = { 
+		        name = "Louis"
+		        monarch_name = "Louis XI"
+		        dynasty = "de Valois"
+		        birth_date = 1423.7.3
+		        death_date = 1483.8.30
+		        claim = 95
+		        adm = 4
+		        dip = 3
+		        mil = 2
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_FRA_No.01a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = FRA
+		    has_ruler = "Louis XI"
+		    NOT = { is_year = 1498 }
+		    NOT = { has_global_flag = monarch_FRA_No.01a }
+		}
+		allow = {
+		    is_year = 1470
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_FRA_No.01a
+			define_heir = { 
+		        name = "Charles"
+		        monarch_name = "Charles VIII"
+		        dynasty = "de Valois"
+		        birth_date = 1470.6.30
+		        death_date = 1498.4.7
+		        claim = 95
+		        adm = 4
+		        dip = 2
+		        mil = 6
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_FRA_No.02a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = FRA
+		    has_ruler = "Charles VIII"
+		    NOT = { is_year = 1515 }
+		    NOT = { has_global_flag = monarch_FRA_No.02a }
+		}
+		allow = {
+		    is_year = 1462
+		    is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_FRA_No.02a
+			define_heir = { 
+		        name = "Louis"
+		        monarch_name = "Louis XII"
+		        dynasty = "de Valois"
+		        birth_date = 1462.6.27
+		        death_date = 1515.1.1
+		        claim = 95
+		        adm = 2
+		        dip = 3
+		        mil = 5
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_FRA_No.03a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = FRA
+		    has_ruler = "Louis XII"
+		    NOT = { is_year = 1547 }
+		    NOT = { has_global_flag = monarch_FRA_No.03a }
+		}
+		allow = {
+		    is_year = 1494
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_FRA_No.03a
+			define_heir = { 
+		        name = "François"
+		        monarch_name = "François I"
+		        dynasty = "de Valois"
+		        birth_date = 1494.9.12
+		        death_date = 1547.3.31
+		        claim = 95
+		        adm = 5
+		        dip = 2
+		        mil = 6
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_FRA_No.04a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = FRA
+		    has_ruler = "François I"
+		    NOT = { is_year = 1559 }
+		    NOT = { has_global_flag = monarch_FRA_No.04a }
+		}
+		allow = {
+		    is_year = 1519
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_FRA_No.04a
+			define_heir = { 
+			    name = "Henri"
+		        monarch_name = "Henri II"
+		        dynasty = "de Valois"
+		        birth_date = 1519.3.31
+		        death_date = 1559.7.10
+		        claim = 95
+		        adm = 4
+		        dip = 3
+		        mil = 3
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_FRA_No.05a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = FRA
+		    has_ruler = "Henri II"
+		    NOT = { is_year = 1560 }
+		    NOT = { has_global_flag = monarch_FRA_No.05a }
+		}
+		allow = {
+		    is_year = 1544
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_FRA_No.05a
+			define_heir = { 
+		        name = "François"
+		        monarch_name = "François II"
+		        dynasty = "de Valois"
+		        birth_date = 1544.1.19
+		        death_date = 1560.12.5
+		        claim = 95
+		        adm = 1 # adm = 0
+		        dip = 1 # dip = 0
+		        mil = 1
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_FRA_No.06a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = FRA
+		    has_ruler = "François II"
+		    NOT = { is_year = 1574 }
+		    NOT = { has_global_flag = monarch_FRA_No.06a }
+		}
+		allow = {
+		    is_year = 1550
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_FRA_No.06a
+			define_heir = { 
+		        name = "Charles Maximilien"
+		        monarch_name = "Charles IX"
+		        dynasty = "de Valois"
+		        birth_date = 1550.6.27
+		        death_date = 1574.5.30
+		        claim = 95
+		        adm = 1
+		        dip = 1
+		        mil = 1 # mil = 0
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_FRA_No.07a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = FRA
+		    has_ruler = "Charles IX"
+		    NOT = { is_year = 1589 }
+		    NOT = { has_global_flag = monarch_FRA_No.07a }
+		}
+		allow = {
+		    is_year = 1551
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_FRA_No.07a
+			define_heir = { 
+		        name = "Henri Alexandre" # Henri Alexandre Édouard
+		        monarch_name = "Henri III"
+		        dynasty = "de Valois"
+		        birth_date = 1551.9.19
+		        death_date = 1589.8.2
+		        claim = 95
+		        adm = 5
+		        dip = 1
+		        mil = 1
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_FRA_No.08a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = FRA
+		    has_ruler = "Henri III"
+		    NOT = { is_year = 1610 }
+		    NOT = { has_global_flag = monarch_FRA_No.08a }
+		}
+		allow = {
+		    is_year = 1553
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_FRA_No.08a
+			define_heir = { 
+		        name = "Henri"
+		        monarch_name = "Henri IV"
+		        dynasty = "de Bourbon"
+		        birth_date = 1553.12.13
+		        death_date = 1610.5.14
+		        claim = 95
+		        adm = 6
+		        dip = 6
+		        mil = 6
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_FRA_No.09a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = FRA
+		    has_ruler = "Henri IV"
+		    NOT = { is_year = 1643 }
+		    NOT = { has_global_flag = monarch_FRA_No.09a }
+		}
+		allow = {
+		    is_year = 1601
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_FRA_No.09a
+			define_heir = { 
+		        name = "Louis"
+		        monarch_name = "Louis XIII"
+		        dynasty = "de Bourbon"
+		        birth_date = 1601.9.27
+		        death_date = 1643.5.14
+		        claim = 95
+		        adm = 3
+		        dip = 3
+		        mil = 4
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_FRA_No.10a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = FRA
+		    has_ruler = "Louis XIII"
+		    NOT = { is_year = 1715 }
+		    NOT = { has_global_flag = monarch_FRA_No.10a }
+		}
+		allow = {
+		    is_year = 1638
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_FRA_No.10a
+			define_heir = { 
+		        name = "Louis Dieudonné"
+		        monarch_name = "Louis XIV"
+		        dynasty = "de Bourbon"
+		        birth_date = 1638.9.5
+		        death_date = 1715.9.1
+		        claim = 95
+		        adm = 5
+		        dip = 5
+		        mil = 6
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_FRA_No.11a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = FRA
+		    has_ruler = "Louis XIV"
+		    NOT = { is_year = 1774 }
+		    NOT = { has_global_flag = monarch_FRA_No.11a }
+		}
+		allow = {
+		    is_year = 1710
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_FRA_No.11a
+			define_heir = { 
+		        name = "Louis"
+		        monarch_name = "Louis XV"
+		        dynasty = "de Bourbon"
+		        birth_date = 1710.2.15
+		        death_date = 1774.5.10
+		        claim = 95
+		        adm = 2
+		        dip = 2
+		        mil = 3
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_FRA_No.12a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = FRA
+		    has_ruler = "Louis XV"
+		    NOT = { is_year = 1793 }
+		    NOT = { has_global_flag = monarch_FRA_No.12a }
+		}
+		allow = {
+		    is_year = 1754
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_FRA_No.12a
+			define_heir = { 
+		        name = "Louis Auguste"
+		        monarch_name = "Louis XVI"
+		        dynasty = "de Bourbon"
+		        birth_date = 1754.8.23
+		        death_date = 1793.1.21
+		        claim = 95
+		        adm = 4
+		        dip = 1 # dip = 0
+		        mil = 4
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_FRA_No.13a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = FRA
+		    has_ruler = "Louis XVI"
+		    NOT = { is_year = 1795 }
+		    NOT = { has_global_flag = monarch_FRA_No.13a }
+		}
+		allow = {
+		    is_year = 1785
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_FRA_No.13a
+			define_heir = { 
+		        name = "Louis Charles"
+		        monarch_name = "Louis XVII"
+		        dynasty = "de Bourbon"
+		        birth_date = 1785.3.27
+		        death_date = 1795.6.8
+		        claim = 95
+		        adm = 3
+		        dip = 3
+		        mil = 1
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_FRA_No.14a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = FRA
+		    has_ruler = "Louis XVII"
+		    NOT = { is_year = 1824 }
+		    NOT = { has_global_flag = monarch_FRA_No.14a }
+		}
+		allow = {
+		    is_year = 1755
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_FRA_No.14a
+			define_heir = { 
+		        name = "Louis Stanislas" # Louis Stanislas Xavier
+		        monarch_name = "Louis XVIII"
+		        dynasty = "de Bourbon"
+		        birth_date = 1755.11.17
+		        death_date = 1824.9.16
+		        claim = 95
+		        adm = 4
+		        dip = 3
+		        mil = 2
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	monarch_FRA_No.15a = {
+		major = yes
+		potential = {
+		    government = monarchy
+		    tag = FRA
+		    has_ruler = "Louis XVIII"
+		    NOT = { is_year = 1836 }
+		    NOT = { has_global_flag = monarch_FRA_No.15a }
+		}
+		allow = {
+		    is_year = 1757
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_FRA_No.15a
+			define_heir = { 
+		        name = "Charles Philippe"
+		        monarch_name = "Charles X"
+		        dynasty = "de Bourbon"
+		        birth_date = 1757.10.9
+		        death_date = 1836.11.6
+		        claim = 95
+		        adm = 2
+		        dip = 3
+		        mil = 1
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+}
